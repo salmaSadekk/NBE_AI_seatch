@@ -1,0 +1,238 @@
+:root {
+  --bg: #12151b;
+  --surface: #191d25;
+  --surface-hover: #1f2430;
+  --border: #262b35;
+  --border-active: #3a4150;
+  --text-primary: #edeff3;
+  --text-secondary: #8b93a3;
+  --accent: #5eead4;
+  --accent-dim: rgba(94, 234, 212, 0.14);
+  --error: #f97066;
+
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+}
+
+body {
+  min-height: 100vh;
+}
+
+.page {
+  position: relative;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 12vh 24px 80px;
+  overflow: hidden;
+}
+
+.halo {
+  position: fixed;
+  top: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 900px;
+  height: 500px;
+  background: radial-gradient(ellipse at center, var(--accent-dim), transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.header {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+}
+
+.wordmark {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(32px, 6vw, 44px);
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.search-shell {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px 18px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-shell:focus-within {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-dim);
+}
+
+.search-icon {
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+
+.search-shell:focus-within .search-icon {
+  color: var(--accent);
+}
+
+.search-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 17px;
+}
+
+.search-input::placeholder {
+  color: var(--text-secondary);
+}
+
+.clear-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 6px;
+}
+
+.clear-btn:hover {
+  color: var(--text-primary);
+  background: var(--surface-hover);
+}
+
+.clear-btn:focus-visible,
+.search-shell:has(.search-input:focus-visible) {
+  outline: 2px solid var(--accent);
+}
+
+.meta-row {
+  position: relative;
+  z-index: 1;
+  margin-top: 14px;
+  min-height: 20px;
+}
+
+.meta-text {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.meta-text.mono {
+  font-family: var(--font-mono);
+}
+
+.meta-text.error {
+  color: var(--error);
+}
+
+.results {
+  position: relative;
+  z-index: 1;
+  list-style: none;
+  margin: 20px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.result-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px 18px;
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.15s ease;
+}
+
+.result-card.active {
+  border-color: var(--border-active);
+  background: var(--surface-hover);
+  transform: translateX(2px);
+}
+
+.result-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.result-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 17px;
+  margin: 0;
+  color: var(--text-primary);
+}
+
+.category-pill {
+  flex-shrink: 0;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  padding: 3px 9px;
+  border: 1px solid;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.result-desc {
+  margin: 8px 0 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text-secondary);
+}
+
+.empty-state p {
+  margin: 0 0 6px;
+}
+
+.empty-hint {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .result-card {
+    transition: none;
+  }
+}

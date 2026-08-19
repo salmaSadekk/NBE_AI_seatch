@@ -1,0 +1,13 @@
+{
+  "id": "nbe-time-deposit-local-002",
+  "source": "...",
+  "title": "Time Deposits interest rate paid at maturity",
+  "category": "Time Deposits",
+  "subcategory": "Local Currency",
+  "content": "NBE offers time deposits with interest paid at maturity. The minimum amount is 5,000 EGP for deposits of less than one month and 1,000 EGP for other durations. Available durations range from 1 week to 7 years. Interest is paid at maturity.",
+  "metadata": {
+    "language": "en",
+    "product_type": "time deposit",
+    "currency": "EGP"
+  }
+}

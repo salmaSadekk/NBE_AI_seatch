@@ -1,0 +1,28 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    container_name: search-backend
+    ports:
+      - "4000:4000"
+    environment:
+      - PORT=4000
+    restart: unless-stopped
+    networks:
+      - search-net
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: search-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - search-net
+
+networks:
+  search-net:
+    driver: bridge
