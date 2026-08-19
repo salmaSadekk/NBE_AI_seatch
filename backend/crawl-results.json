@@ -1,0 +1,1400 @@
+{
+  "crawler": {
+    "startUrl": "https://www.nbe.com.eg/NBE/E/",
+    "maxPages": 500,
+    "maxDepth": 10,
+    "generatedAt": "2026-08-19T17:52:58.874Z",
+    "pagesCrawled": 33,
+    "uniqueUrlsVisited": 33,
+    "remainingQueue": 0,
+    "totalChunks": 71
+  },
+  "pages": [
+    {
+      "pageId": "page-1",
+      "url": "https://www.nbe.com.eg/NBE/E/",
+      "depth": 0,
+      "title": "National Bank of Egypt - Home",
+      "container": "main",
+      "textLength": 387,
+      "text": "Please note that this service is only for inquiring about the products and services offered by the Bank to retail and corporate customers. Keep your data safe and do not share the PIN codes or passwords of your accounts or cards. Please do not disclose your personal or financial data upon using the service.(Please note that the Bank will record all conversations for quality purposes).",
+      "links": [
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22UpdateYourKYCInitiative%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%22NBE%20phone%20Cash_15514%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22OpenYourBankAccountInEgypt%22}",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams={%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2219840%22}",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D8%A7%D9%86%D8%B6%D9%85%20%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A8%D9%86%D9%83%20%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A_18782%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D8%A7%D9%86%D8%B6%D9%85%20%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A8%D9%86%D9%83%20%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A_18719%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams={%22CategoryID%22%3A%2250%22,%22ProductID%22%3A%2216641%22}",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22284%22}",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams={%22CategoryID%22%3A%2250%22,%22ProductID%22%3A%2215505%22}",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22selfservices%22}%20%20",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22CreditCardsID%22}",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22PersonalLoansCatID%22}",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22NewAutoLoanID%22}",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22CertificatesID%22}",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%22Ahly%20Net%20-%20Personal_16537%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2216641%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2215514%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2215505%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22ecommerce%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22AhlyPoints%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22magazine%22%7D"
+      ],
+      "chunkCount": 1,
+      "scrapedAt": "2026-08-19T17:46:00.819Z"
+    },
+    {
+      "pageId": "page-2",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22UpdateYourKYCInitiative%22%7D",
+      "depth": 1,
+      "title": "National Bank of Egypt - Update Your KYC in Egypt Initiative",
+      "container": "#divProductCatalogCategory",
+      "textLength": 641,
+      "text": "Update Your KYC Initiative\nThrough Embassies and Consulates of the Arab Republic of Egypt in Foreign Countries\nIn line with Egypt's efforts to streamline banking processes for Egyptian expats, and to facilitate the process of updating KYC information for Egyptian National Bank of Egypt (NBE) customers living abroad, an initiative was launched to enable the Bank’s customers to subscribe to NBE Mobile and Al Ahly Net and subscribe to the Bank’s electronic statements of accounts service through Egypt’s embassies and consulates in certain foreign countries.\nTo view the terms and condition of the “Update your KYC” initiative, \"Click Here\"",
+      "links": [],
+      "chunkCount": 1,
+      "scrapedAt": "2026-08-19T17:46:15.446Z"
+    },
+    {
+      "pageId": "page-3",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%22NBE%20phone%20Cash_15514%22%7D",
+      "depth": 1,
+      "title": "National Bank of Egypt - NBE Phonecash",
+      "container": ".catagory_landing",
+      "textLength": 3061,
+      "text": "Now You Can Register to Al Ahly Phone Cash Service Online , Just Click Here\nUse your \"NBE Phonecash\" wallet to make your daily payments around the clock from anywhere through the easiest and most secure way. The service is available for NBE or non-NBE customers as of age 15+.\nThe services available on NBE Phonecash application:\nLink/remove cards:\nNow you can link/remove your own NBE cards through the application from \"My Wallet\" tab.\nActivate wallet:\nOnce you subscribe to the service, Activate your wallet upon registration/downloading the application from the mobile store and entering the required data, then the system will verify it and you will instantly receive an activation code without contacting the call center.\nWallet balance:\nThe wallet available balance is displayed on the application’s home screen.\nFinancial Transactions:\nView your last 5 transactions on the wallet from the application's home screen.\nNotifications:\nView notifications related to any received transfers in addition to other new notifications.\nReceiving international remittances:\nReceiving electronic international remittances instantly only in Egyptian pound, via PhoneCash wallet 24/7. To view the list of agents and correspondent banks: Click Here\nNew services on NBE PhoneCash:\nInquire whether the mobile phone number is already linked to a \"mobile wallet\" or not.\nCancel subscription to the NBE Phonecash service.\nRequest an e-statement of account showing the wallet transactions within 6 months to be sent to your e-mail in PDF format.\nRate the quality of the service provided and share your experience with us through the application.\nView different services fees from the pricing list on the application and inquire about Fawry outlets\nFor further details and assistance on NBE Phonecash services , kindly refer to:\nNBE Phonecash User Guide \"Click Here\"\nIn Collaboration with meeza Digital\nService features\nHow to subscribe\nFAQs\nPhone Cash wallet allows the customer to access the following services:\nTransfer money:\nTransfer money from your NBE Phone Cash wallet to any other wallet within the Arab Republic of Egypt in the local currency in real time.\nOnline purchases:\nThe purchase is made via creating a virtual card for a one-time use (a one-time purchase), valid only for 24 hours. It can be used locally.\nFawry services:\nYou can recharge and pay your mobile phone bill; make donations; pay internet ADSL bills as well as electricity, water and gas bills; and make use of an extensive range of services.\nDeposit/withdrawal:\nYou can deposit/withdraw cash through NBE branches and ATMs as well as other banks’ ATMs with \"Meeza\" logo in addition to Fawry-enabled outlets nation-wide.\nLoading the wallet:\nYou can directly load your NBE Phone Cash wallet by linking your own NBE MasterCard ,Visa and Meeza cards (Credit, Debit, Prepaid and Payroll) to the wallet.\nReceive domestic transfers:\nReceive ACH transfer on the wallet.\nPurchase service:\nYou can purchase and pay using QR code through Phone Cash wallet, for more information about NBE Merchants Click here",
+      "links": [
+        "https://www.nbe.com.eg/NBE/E/#/AR/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D9%81%D9%88%D9%86%20%D9%83%D8%A7%D8%B4%20-%20%D8%AA%D8%B3%D8%AC%D9%8A%D9%84%20%D8%B0%D8%A7%D8%AA%D9%8A_16646%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22ExpatriatesTransfers%22%2C%22ProductID%22%3A%2215526%22%7D",
+        "https://www.nbe.com.eg/",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ContactUs"
+      ],
+      "chunkCount": 3,
+      "scrapedAt": "2026-08-19T17:46:34.934Z"
+    },
+    {
+      "pageId": "page-4",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22OpenYourBankAccountInEgypt%22}",
+      "depth": 1,
+      "title": "National Bank of Egypt - Open your bank account in Egypt Initiative",
+      "container": "#divProductCatalogCategory",
+      "textLength": 1684,
+      "text": "Open your bank account in Egypt Initiative\nThrough embassies and consulates of the Arab Republic of Egypt in foreign countries\nIn line with Egypt's efforts to streamline banking processes for Egyptian expats who wish to get banking products and services, an initiative was launched to enable them to open financial inclusion retail accounts with the National Bank of Egypt (NBE), and subscribe to NBE Mobile and Al Ahly Net, internet banking, upon completion of account opening requirements through embassies and consulates of the Arab Republic of Egypt in certain foreign countries.\nAvailable products and services\nAccounts that can be opened under the initiative for the new customers:\nAl Mostakabal Saving\nMinimum amount for account opening\nNo minimum required\nCurrency\nEGP\nCompare\nAl Mostakabal Saving Account\nMinimum amount for account opening\nNo minimum required\nCurrency\nUSD - Euro - Sterling Pound\nCompare\nUpon opening an account, the customer can automatically subscribe to internet banking services through which s/he can:\nOpen certificates available at NBE in US dollars \"Click Here\".\nBook deposits available at NBE in US dollars \"Click Here\".\nPurchase investment certificates of type (A-B) available at NBE \"Click Here\".\nMake financial transfers from and to the account.\nPurchase/redeem mutual fund certificates.\nView the consolidated e-statement of accounts.\nThrough the initiative customers may issue a debit card and enjoy all the banking products and services upon visiting NBE's branches inside Egypt.\nEgyptian expats may subscribe to the \"Maash Bokra\" pension policy in US dollar, introduced in collaboration with Misr Life Insurance. through the link, \"Click Here\".",
+      "links": [
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22ForigenCertificatesID%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22ForeignDeposits%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22InvestmentCertificateCatID%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22Bancassurance%22%7D"
+      ],
+      "chunkCount": 2,
+      "scrapedAt": "2026-08-19T17:46:46.163Z"
+    },
+    {
+      "pageId": "page-5",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams={%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2219840%22}",
+      "depth": 1,
+      "title": "National Bank of Egypt - Apple Pay",
+      "container": ".catagory_landing",
+      "textLength": 1799,
+      "text": "An easy, secure and private way to pay\nApple Pay lets you make purchases with your NBE card using any Apple device\nJust like you would with your physical card in store, online or in apps\nApple Pay on one.\nApple Pay on all.\nApple Pay is here and available on all your Apple devices. To get started, open Apple Wallet on your iPhone or Apple Watch, or select Wallet & Apple Pay in System Preferences on your iPad or Mac. Now you’re just a few taps away from using Apple Pay with your NBE card.\nUse it at your\nfavorite shops.\nYou can now pay with your NBE card anywhere you see or the symbol in-store, online, or in your favorite apps––it’s easy with Apple Pay.\nSave your time.\nCheck out faster.\nWith Apple Pay, information like your name and address automatically populate at checkout, online and in apps. Now paying is faster than ever. Just look at the Apple Pay button at checkout.\nDesigned to be secure.\nSo only you can pay.\nApple Pay uses the security features built into your Apple device to help keep your purchases private and secure. All transactions require Face ID, Touch ID, or your passcode, which are designed so only you can make purchases with Apple Pay. Your actual card number is never stored on your device or Apple servers. And when you pay, your card number is never shared by Apple with merchants, keeping these details hidden and offering an additional level of protection against fraud.\nAdd your NBE card\nin a few steps\n1\nOpen your Apple Wallet on your iPhone.\n2\nTap the \"+\" button then tab Debit or Credit Card.\n3\nFollow the steps on your screen to add a new card.\nThe card benefits you love, with Apple Pay\nWhen you use your NBE card with Apple Pay, you will get the benefits and rewards you love - just like you would with your physical card\nLearn more about using Apple Pay",
+      "links": [],
+      "chunkCount": 2,
+      "scrapedAt": "2026-08-19T17:47:02.569Z"
+    },
+    {
+      "pageId": "page-6",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D8%A7%D9%86%D8%B6%D9%85%20%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A8%D9%86%D9%83%20%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A_18782%22%7D",
+      "depth": 1,
+      "title": "National Bank of Egypt - Branch Appointment Booking",
+      "container": ".catagory_landing",
+      "textLength": 3738,
+      "text": "Appointment booking service\nService\nThe service enables all NBE or non-NBE customers to book an appointment through NBE's website.\nThe branches at which the booking service is available will appear to the customers when they attempt to book an appointment. The service is free of charge and available 24/7.\nCustomers are allowed to book only one appointment across all NBE branches where this service is available, within official working hours.\nCustomers can amend the scheduled appointment date and/or time as well as cancel it if no longer needed.\nThe customer can amend the date of their scheduled appointment at any time before the actual timing of the appointment specified by them.\nThe timing of the appointment cannot be changed to another time on the same appointment day.\nTo check in, please show up at the branch at least one minute before the scheduled appointment and no later than 15 minutes.\nThe customer cannot book an appointment for the same day.\nSteps for appointment booking through NBE's website:\nEnter your national ID number and mobile phone number.\nIf you are an NBE customer: enter your national ID number and mobile phone number registered with NBE. If you enter a national ID or mobile phone number that is not registered with NBE, you will not be able to proceed with appointment booking, and you will be directed to visit the branch to update your information.\nEnter your e-mail address (optional), then click “Submit”.\nChoose the department (Customer Service, Teller or Reception), or IBAG (only branches where the service is available will be shown), select the required service, then click “Submit”.\nIf your information must be updated, you will be directed to Information Update service only. Once you show up at the branch at the scheduled appointment, you will be transferred to any other department/service at the branch after you complete the procedures required for information update.\nChoose the required NBE branch through one of the following methods\nIf you have agreed to sharing your location with NBE, you can select from the nearest 10 branches that will appear to you.\nIf you want to choose a specific branch or you do not want to share your location through NBE's website, you can choose the region, the area then the branch which you want to visit from the available branches in the region and area. (Note: You can type the branch name directly after selecting the region and area), then click “Submit”.\nChoose the preferred day and time for your appointment, then click “Submit”.\nYour scheduled appointment details will be displayed, including all the information entered in the previous steps (department, service, branch name, appointment number, date, and time). You can download the appointment details or amend/cancel the appointment.\nWhen you arrive at the branch at your scheduled appointment time, you can check in using one of the following methods:\nScan the QR Code given with the booked appointment details to check-in and print your appointment details (only available at branches which have QR code readers).\nSelect the “Check-In” option on the kiosk screen, enter the mobile number, then your appointment time and required service will be displayed. Press the “Appointment” button to receive your appointment details and complete the check-in process.\nAnnouncement\nBranches located in clubs and sovereign entities are accessible to authorized persons only.\nPlease note that if your appointment falls on an official public holiday announced by the Central Bank of Egypt (CBE), it will be automatically canceled. Therefore, kindly schedule a new appointment on an official working day.\nIslamic branches (Al-Azhar and Tahrir Islamic Branches) offer products of a special nature.",
+      "links": [],
+      "chunkCount": 3,
+      "scrapedAt": "2026-08-19T17:47:17.179Z"
+    },
+    {
+      "pageId": "page-7",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D8%A7%D9%86%D8%B6%D9%85%20%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A8%D9%86%D9%83%20%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A_18719%22%7D",
+      "depth": 1,
+      "title": "National Bank of Egypt - Become An NBE Customer",
+      "container": ".catagory_landing",
+      "textLength": 2996,
+      "text": "Dear Valued Customer,\nKindly be informed with the following:\nThis service is provided only to new retail customers to the bank who are residents in Egypt, over 21 years old, and have a valid National Identification Number (National Identification Number written in a valid passport is accepted “but the passport number is not accepted”).\nThis service isn't available with power of attorney, for minors, as a gift account, and for people who can’t read or write.\nTo secure the original requested documents and obtain the physical signature in order to complete your request, the National Bank of Egypt offers two options:\nVisit one of the NBE branches:\nVisit one of the NBE's e-branches: Choose the time and date to visit that branch. If, for whatever reason, you miss your appointment, or you did not pay the branch a visit within 10 working days from the day of your appointment, your request will be automatically canceled and you will have to apply again. Kindly note that instant debit card issuance, is available only in select branches (specified when selecting the e-branch you will be visiting)\nVisit one of NBE's traditional branches:\nrequest to meet the Retail Banking Manager in person or whoever is on his behalf in the branch to direct you to the relevant colleague to speed up your application. If, for whatever reason, you did not pay the branch a visit within 10 working days from the day of submitting the request, your request will be automatically canceled and you will have to apply again\nRequest a personal visit from a bank employee (available only in select governorates). This service is only available to senior citizens (60 years old and older), women, and individual with special needs (provided that they can see, hear, read and write). An employee will contact you on the mobile number you entered in the application request (within two working days) to arrange with you the date and time of the visit and inform you of the requested documents so you can prepare them with copies to proceed with the application. If the employee couldn't reach you or couldn't arrange your appointment with you or you didn't prepare the requested documents, your request will be automatically canceled and you will have to apply again.\nAccount Opening Steps:\nEnter your NID and mobile number.\nEnter the OTP sent to the mobile number.(taking into consideration not to disclose it to anyone)\nEnter your email twice.\nEnter OTP sent to that email (please check the Junk Folder) taking into consideration not to disclose it to anyone.\nEnter the required Information for account opening request.\nFor signature submission and required document completion, please choose one of these options:\nVisit nearest branches.\nRequest a personal visit from a bank employee. (T&C applied)\nMark \"Check\" on Terms and Condition (Reading and Confirmation).\nYou will receive an email on the entered email address to confirm your request. (Please check the Junk Folder in case you don’t find it in the inbox.)",
+      "links": [],
+      "chunkCount": 3,
+      "scrapedAt": "2026-08-19T17:47:34.168Z"
+    },
+    {
+      "pageId": "page-8",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams={%22CategoryID%22%3A%2250%22,%22ProductID%22%3A%2216641%22}",
+      "depth": 1,
+      "title": "National Bank of Egypt - Al Ahly Mobile",
+      "container": ".catagory_landing",
+      "textLength": 3355,
+      "text": "NBE Mobile - Retail offers a state-of-the-art, easy-to-use, and secure banking experience. NBE Mobile provides many cutting-edge banking services that can be processed anywhere and anytime. These services include the following:\nAl Ahly Net/NBE Mobile self-registration\nActivate soft token (NBE Token)\nUse biometric authentication (Face ID – Touch ID) for login\nApply for an unsecured credit card and follow up on the application.\nApply for an unsecured personal cash loan/auto loan and follow up on the application.\nUse the multiple transfer service which enables you to process more than one internal/ domestic transfer faster and in one step only.\nUse a one-off internal/domestic transfer service without adding a payee.\nInstantly view and review all types of accounts/certificates/deposits/ loans/ and cards.\nInquire, purchase, or redeem mutual funds.\nCreate and modify investment accounts.\nPurchase/redeem/ amend certificates and deposits.\nActivate/ stop/ issue a replacement card/request a new PIN/ reset the PIN for credit cards\nActivate/ stop/ request a new PIN / reset PIN for payroll cards.\nUse debit card services:\nActivate new or renewed debit cards\nRequest a new PIN\nReset PIN\nIssue or stop a new card\nUse prepaid card services:\nMake a transfer from an account/a prepaid card to another prepaid card held by the same customer.\nInquire about card details.\nActivate new /renewed cards.\nRequest a new PIN.\nReset PIN.\nIssue or stop a new card.\nstatement of the card.\nIssue new prepaid card\nMake credit card payments.\nMake internal transfers.\nMake internal/domestic transfers from own account to other accounts with NBE or with other banks, in the local currency only.\nMake domestic transfers from own account to accounts with other banks in Egypt, in local currency, using the International Bank Account Number (IBAN) .\nTransfer funds to e-wallets inside Egypt.\nDownload e-statement of credit cards and consolidated accounts.\nEdit personal information, such as e-mail and mailing address.\nActivate/deactivate/ refresh the hard token.\nUse Fawry services.\nActivate dormant accounts.\nMake donations to registered entities on Al Ahly Net/NBE Mobile.\nInquire about cheque status and cheques under collection.\nPlace, stop, and inquire about standing instructions\nOpen sub-accounts for existing customers.\nUse personal financial management (PFM) service.\nRequest I-Score credit report inquiry and download it in PDF format.\nMake merchant payments.\nYou can Download NBE Mobile through the following link or search for “NBE Mobile” in your store:\nDownload NBE Mobile application from the App Store for iPhone\nDownload\nDownload NBE Mobile application from Google Play for Android\nDownload\nSoft token for retail customers\nDownload and use the soft token to authenticate financial transactions via the following links:\nDownload Soft Token application from the App Store for iPhone\nDownload\nDownload Soft Token application from Google Play for Android\nDownload\nFor further details and assistance on Al Ahly Net or NBE Mobile services, kindly refer to:\nAl Ahly Net User Guide for Retail Customers\"Click Here\"\nNBE Mobile User Guide for Retail Customers \"Click Here\"\nHard Token User Guide \"Click Here\"\nSoft Token User Guide \"Click Here\"\nLogin\nTo subscribe to the service, please \"Click Here\" and follow the self-registration steps or visit the nearest NBE branch.",
+      "links": [],
+      "chunkCount": 3,
+      "scrapedAt": "2026-08-19T17:47:51.834Z"
+    },
+    {
+      "pageId": "page-9",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22284%22}",
+      "depth": 1,
+      "title": "National Bank of Egypt - Security Awareness",
+      "container": "#divProductCatalogCategory",
+      "textLength": 951,
+      "text": "Dear Customer,\nDon't give out your personal / account / cards' data which includes, but not limited to, (card number(s) – One-time password \"OTP\" – the 3 digits at the back of the bank card \"CVV\") to any one or entity that requires them and always beware of any one asking for them.\nAlways protect your data and do not share it with anyone through phone or email and in case received such calls or emails please report it to NBE call center at 19623\nTo protect your card data, do not share card number or expiry date or the CVV number printed on the back side of the card to anyone\nWhen using e-commerce services and to protect your transactions avoid sharing the one time password (OTP) that is sent to you by NBE through SMS.\nEnsure to follow the official page for NBE on social media which contains the blue mark beside the name of the page\nTo protect your internet banking account, do not share your user name or password or hard token with anyone",
+      "links": [],
+      "chunkCount": 1,
+      "scrapedAt": "2026-08-19T17:48:03.654Z"
+    },
+    {
+      "pageId": "page-10",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams={%22CategoryID%22%3A%2250%22,%22ProductID%22%3A%2215505%22}",
+      "depth": 1,
+      "title": "National Bank of Egypt - Al Ahly e-Branch",
+      "container": ".catagory_landing",
+      "textLength": 6171,
+      "text": "The new generation of bank branches based on self-serv. services through electronic, digital channels\nSelf-serve services\nTo Subscribe or request some of NBE services and products in a quick way using e-forms through self-serve. desk (touch screen) , also you will be able to access to your internet banking services.\nPrinting a statement of account.\nIssuing pre-paid cards.\nInformation update.\nSubscription to Al Ahly Net.\nSubscription to Al Ahly Phone Cash.\nPurchase and redemption of certificates.\nOpening accounts for new and existing customers.\nGiving standing instructions with respect to cards.\nPrimary/supplementary debit card issuance request.\nTime deposit issuance & redemption.\nTransfer between own accounts in case of insufficient balance.\nITM\nITM is standing for (Interactive Teller Machine) which is a video-based interactive technology allowing customers to conduct transactions and banking services driven by a centrally based teller , in a highly engaging real time video/audio interaction to provide :\nCash withdrawal up to EGP 50,000.\nCash deposit up to EGP 50,000.\nDepositing NBE cheques for collection (Retail) .\nVideo call\nAllows customers to contact NBE customer service representative visually for inquiries and assistance for any detailed bank products and services.\nInteractive screens\nInquiring about NBE’s products.\nWatching promotional and informational videos of products.\nAl Ahly phone\nDirect access NBE call center to Take most of services provided through Ahly phone.\nHelp desk\nTo provide guidance & assist through our customer service representative in using branch channels.\nFind us:\nBranch Name Address Available Service Working Hours Area\nTower Branch\nNBE Tower, 1187 Corniche El Nil St. - Bolaq Abo Elela\nAll Services Are Available Except ITM\n8.30am : 3pm / 5Days\nCairo\nCity Stars Mall\nInside of City Stars Mall Gate 6 - Nasr City\nAll Services\n11am : 7pm / 7Days\nCairo\nDown Town New Cairo\nPlot No 30 first Sector - Central Area - 5th settlement El Teseen Street - New Cairo\nAll Services Are Available Except ITM\n8.30am : 3pm / 5Days\nCairo\nAdministration Capital\nPlot No 26-A1 - Financial District - Banks Area - Administration Capital\nAll Services Are Available\n8.30am : 3pm / 5Days\nCairo\nCFC Mall e-Branch\nUnits No. 2-043 - Second Floor - CFC Mall - Taha Hussein St. - 5th settlement - Cairo\nAll Services Are Available 11am : 7pm / 7Days Cairo\nPoint 90 Mall\nInside of Pointr 90 Mall - Ground Floor- Infornt of the American University - Fifth Settlement\nAll Services 11am : 7pm / 7Days Cairo\nAl Rehab 2 Branch (E-Corner)\nUnit Number 106 in the tading zone (eastern market) - Al Rehab\nAll Services Except the Interactive Teller\n8.30am : 3pm / 5Days\nCairo\nMirage City (E-Corner)\nTrading Mall number 2, Mostafa Kamel Axis, New Cairo\nAll Services Except the Interactive Teller\n8.30am : 3pm / 5Days\nCairo\nCity Center Almaza\nInside of city Center Almaza - Gate 2 - Heliopolis\nAll Services\n11am : 7pm / 7Days\nCairo\nIconia Zamalek\nIconia Building - 16 Mohamed Bin Thakeb Street - Zamalek\nAll Services\n8.30am : 3pm / 5Days\nCairo\nElectronic Branch in the Main Branch\n24 Sherif street, Downtown\nAll Services\n8.30am : 3pm / 5Days\nCairo\nMaadi City Center\nMaadi City Center Mall, Units 32, 33 - Kattamya - Ring Road\nAll Sevices\n11am : 7pm / 7Days\nCairo\nMohamed Farid (e-Corner)\n147 Mohamed Fared - Downtown\nAll Services Are Available Except ITM\n8.30am : 3pm / 5Days Cairo\nMall Of Arabia\nInside of Mall Of Arabia - Gate 17 - 6th of October city\nAll Services\n11am : 7pm / 7Days\nGiza\nAllegria Sheikh Zayed\nPlot No 6 - District No 17 -Showroom No. 21 - Beverly Hills - Cairo Alexandria Desert Road, Area G2 - Sheikh Zayed City - Giza\nAll Services Are Available Except ITM\n8.30am : 3pm / 5Days\nGiza\nNew Giza\nNew Giza Sporting Club - 6th of October city\nAll Services\n8.30am : 4pm / 5Days\nGiza\nCentral Axis 6th of October (E-Corner)\nUnit 3 - 56 Central Axis- 6th of October city\nAll Services Except the Interactive Teller\n8.30am : 3pm / 5Days\nGiza\nShooting Club 6 October\nShooting Club October - The Third Touristic Area - 6 of October City\nAll Services\n11:00 am : 07:00 pm / 7 Days Giza\nConcordia Plaza\nLand Unit 13 - Eastern Expantions - 6th of October - next to El Gezira Club.\nAll Services\n8.30am : 3pm / 5Days\nGiza\nArkan Plaza Mall\nUnits No. AY-203 Ground Floor and VY-202 1st Floor - Arkan Mall 2 - Sheikh Zayed City\nAll Services Are Available\n8.30am : 3pm / 5Days Giza\nSan Stefano Mall\nInside San Stefano Mall - Second Floor - 399 El-Gaish St.\nAll Services Are Available\n8.30am : 3pm / 5Days Alexandria\nCity Center Alexandria\nInside City Center Mall - Infront of Downtown - Alexandria - Cairo Desert Road 6th Kilo\nAll Services\n11am : 7pm / 7Days\nAlexandria\nCity Mall - Shebin Al Koum\nGamal Abd El Naser El Bahary St. - Shebeen El-Kom - Menofia Governorate.\nAll Services\n11am : 7pm / 7Days\nDelta\nTanta Mall\nUnit Number G017 Ground Floor - Tanta Mall - Gharbia Governorate\nAll Services\n11am : 7pm / 7Days\nDelta\nAswan Plaza Mall\nFirst Floor Inside the Main Entrance of Aswan Plaza Mall - Aswan Governorate.\nAll Services\n11am : 7pm / 7Days\nUpper Egypt\nCity Scape Mall\nUnits number G-32 and G-33 - Ground Floor - City Scape Mall - New Minya - Minya Governorate.\nAll Services\n11am : 7pm / 7Days\nUpper Egypt\nAl Sayyad Mall - Damietta\nUnits 4, 77 - First Floor - Al Sayyad Mall - Damietta Governorate\nAll Services\n11am : 7pm / 7Days\nCanal Area\nHurghada City Center\nInside city center hurghada mall - Ground Floor - Hurghada - Red Sea Governorate.\nAll Services\n11am : 7pm / 7Days\nCanal Area\nIsmailia City Center\nInside Carrefour Mall - Ismailia Governorate.\nAll Services\n11am : 7pm / 7Days\nCanal Area\nAl Salam Road - Sharm Al Sheikh\nCriss Village Fence - Neema Bay - Al Salam Road - Sharm Al Sheikh - South Sinai Governorate\nAll Services\n11am : 7pm / 7Days\nCanal Area\nArabesque Mall\nUnit No. ED01A next to Carrefour Hypermarket - building E Open Air Mall – Madinaty-New Cairo\nAll Services\n11am : 7pm / 7Days\nCairo\nPlatinum Club\nCairo New Cairo Managerial building inside of Platinum Club\nAll Services\n11am : 7pm / 7Days Cairo\nMarina El Gouna\nMarina 3 Abu Tig Area - El Gouna - Hurghada - Red Sea Governorate.\nAll Services\n8:30 am : 3:00 pm / 5 Days Red Sea",
+      "links": [],
+      "chunkCount": 5,
+      "scrapedAt": "2026-08-19T17:48:14.734Z"
+    },
+    {
+      "pageId": "page-11",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22selfservices%22}%20%20",
+      "depth": 1,
+      "title": "National Bank of Egypt - Self Services",
+      "container": "#divProductCatalogCategory",
+      "textLength": 1183,
+      "text": "Dear Customer,\nIf you see a message requesting you to update your information while using self-service, we are pleased to welcome you at any NBE branch to update your information, in order to maintain the service(s). Some banking services will be stopped after three months from the date on which you are required to update your information with the Bank. Please note that the Bank does not request any personal or banking information over the phone or via text messages.\nTo find which services will be suspended, please visit the following link: \"Important Information Update Notice to Customers\"\nBranch Appointment Booking\nInstant Payment Network (IPN) Transfer Service\nBook An Appointment With A SME Business Development Specialist\nEGP personal cash loan against Al Ahly Plus certificate request.\nChequeBook Request For Retail Customers\nBecome An NBE Customer\nBecome an NBE Customer\nMutual Funds Issuing and Inquiry\nSubscribe To Electronic Statements Of Accounts Or Cards\nInquiry About The Incoming Electronic Foreign Remittances\nUpdate Email / Delivery Branch Service\nIBAN Inquiries\nNew Installment Amount After Deferment\nNBE PhoneCash - Self Registration\nI-score Inquiry Service",
+      "links": [
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22NewsCat1ID%22%2C%22ProductID%22%3A%2219848%22%7D"
+      ],
+      "chunkCount": 1,
+      "scrapedAt": "2026-08-19T17:48:25.098Z"
+    },
+    {
+      "pageId": "page-12",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22CreditCardsID%22}",
+      "depth": 1,
+      "title": "National Bank of Egypt - Credit Cards",
+      "container": "#divProductCatalogCategory",
+      "textLength": 3163,
+      "text": "Our dear customer,\nPlease commit to using your cards (credit, debit, and prepaid cards) in accordance with the terms and conditions of the card issuance, and do not use them in unusual transactions or allow others to use them inside or outside Egypt, in order to avoid suspending your cards.\nMastercard Standard\nMost used card in Egypt & abroad\nfor purchases and cash withdrawal\nMaximum Credit Limit\n9,999 EGP\nGrace Period\nup to 55 days\nfor purchases only\nAdditional Card Fees\n25 EGP\nCompare\nVisa Classic\nThe most used card in Egypt and abroad for purchases and cash withdrawal\nMaximum Credit Limit\n9,999 EGP\nGrace Period\nup to 55 days\nfor purchases only\nAdditional Card Fees\n25 EGP\nCompare\nMastercard Egyptair\nMasterCard Egyptair\nMaximum Credit Limit\n9,999 EGP\nGrace Period\nup to 55 days\nfor purchases only\nAdditional Card Fees\n25 EGP\nCompare\nVisa Gold\nEnjoy more benefits and high purchasing capabilities\nMaximum Credit Limit\n49,999 EGP\nGrace Period\nup to 55 days\nfor purchases only\nAdditional Card Fees\n1 Free\nCompare\nMastercard Titanium\nMaximum Credit Limit\n49,999 EGP\nGrace Period\nup to 55 days\nfor purchases only\nAdditional Card Fees\n1 Free\nCompare\nUEFA Champions League Mastercard\nEnter the world of the UEFA Champions League!\nMaximum Credit Limit\n250,000 EGP\nGrace Period\nup to 57 days\nfor purchases only\nAdditional Card Fees\n1 Free\nCompare\nVisa Platinum\nA new concept of luxury\nMaximum Credit Limit\n250,000 EGP\nGrace Period\nup to 57 days\nfor purchases only\nAdditional Card Fees\n2 Free\nCompare\nUSD Visa Platinum\nA new concept of luxury with NBE USD Visa Platinum\nMaximum Credit Limit\n50,000 USD\nGrace Period\nup to 55 days\nfor purchases only\nAdditional Card Fees\nUSD 50\nCompare\nMastercard Platinum\nWelcome to a world of unlimited luxury and excellence\nMaximum Credit Limit\n250,000 EGP\nGrace Period\nup to 57 days\nfor purchases only\nAdditional Card Fees\n2 Free\nCompare\nMastercard World\nEnjoy a unique list style along with hospitality in various places worldwide\nMaximum Credit Limit\n500,000 EGP\nGrace Period\nup to 57 days\nfor purchases only\nAdditional Card Fees\n1000\nCompare\nVisa Signature\nRedefining luxury\nMaximum Credit Limit\n500,000 EGP\nGrace Period\nup to 57 days\nfor purchases only\nAdditional Card Fees\n1000\nCompare\nMastercard World Elite\nEnjoy a unique list style along with hospitality in various places worldwide\nMaximum Credit Limit\n3,000,000 EGP (Secured)\n1,500,000 EGP (Unsecured)\nGrace Period\nup to 57 days\nfor purchases only\nAdditional Card Fees\n1000\nCompare\nVisa Infinite\nA new concept of luxury\nMaximum Credit Limit\n3,000,000 EGP (Secured)\n1,500,000 EGP (Unsecured)\nGrace Period\nup to 57 days\nfor purchases only\nAdditional Card Fees\n1000\nCompare\nTo compare between products press...\nAhly Discounts\nNBE Discounts Program (Exclusive merchant discounts and offers).\nAhly Installments\nNBE Installments Program (Up to 6-month interest-free installments).\nMonthly Offers\nMonthly Offers and Discounts (zero-interest, zero down payment, and zero administrative fees).\nAl Ahly Medical Program\nLoan on Phone Service\nNBE Contactless Bracelet\nCredit Card statement via E-mail - Service\nAl Ahly Points\nRenewal Fees Campaign\nIssuance fees cashback campaign",
+      "links": [
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%20%D9%81%D9%8A%20%D8%AE%D8%AF%D9%85%D8%A9%20%D8%A7%D9%84%D9%83%D8%B4%D9%81%20%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%20%D9%84%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA%20%D9%88%20%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D9%82%D8%A7%D8%AA_18712%22%7D"
+      ],
+      "chunkCount": 3,
+      "scrapedAt": "2026-08-19T17:48:40.179Z"
+    },
+    {
+      "pageId": "page-13",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22PersonalLoansCatID%22}",
+      "depth": 1,
+      "title": "National Bank of Egypt - Personal Cash Loan",
+      "container": "#divProductCatalogCategory",
+      "textLength": 141,
+      "text": "With Salary/Installment Transfer\nWithout Salary / Installment Transfer\nBusiness owners and self-employed\nPensioners\nSurrogate Income Programs",
+      "links": [],
+      "chunkCount": 1,
+      "scrapedAt": "2026-08-19T17:48:51.129Z"
+    },
+    {
+      "pageId": "page-14",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22NewAutoLoanID%22}",
+      "depth": 1,
+      "title": "National Bank of Egypt - Auto Loan",
+      "container": "#divProductCatalogCategory",
+      "textLength": 1533,
+      "text": "Loan features\nNo need for a guarantor.\nLoan amount up to EGP 3 mn. for employees, business owners/self-employed.\nFinancing up to 100% of the car price.\nFlexible loan tenors ranging from 1 year to 7 years.\nCompetitive interest rates.\nSpecial programs for corporate deals (group deals) with loan amounts up to EGP 5 mn.\nMinimum net monthly income of EGP 5,000.\nNo I-Score fees.\nNo account opening fees.\nMultiple programs for all customer segments:\nEmployee program with salary transfer.\nEmployee program with income proof.\nEmployee program with 40% down payment on the car price and 60% financing.\nBusiness owners/self-employed program with 50% down payment of the car price and 50% financing.\nBusiness owners/self-employed program with a 30% down payment on the car price and 70% financing.\nFinancing 100% of the car price against an additional collateral of 50% of the car price.\nBasic required documents from all customers\nCopy of valid National ID card.\nUtility bill (as per the approved policy).\nGeneral conditions\nBorrower's age shall be at least 21 years and shall not exceed 60 years at loan maturity (employees).\nBorrower's age shall be at least 25 years and shall not exceed 65 years at loan maturity (business owners and self-employed).\nCommissions and fees\nFor more information on retail loan fees and charges, \"Click Here\"\nCar Loans also can be granted against collateral (according to the approved policy).\n*For more details, please visit the nearest branch or contact our call center 19623.\n*Terms and conditions applied",
+      "links": [
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22Tariff%22%7D"
+      ],
+      "chunkCount": 2,
+      "scrapedAt": "2026-08-19T17:49:01.820Z"
+    },
+    {
+      "pageId": "page-15",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22CertificatesID%22}",
+      "depth": 1,
+      "title": "National Bank of Egypt - Saving Certificates",
+      "container": "#divProductCatalogCategory",
+      "textLength": 623,
+      "text": "Saving Certificates - Local Currency\nDifferent certificates types' that match the various needs of savers\nSaving Certificates - Foreign Currency\nEnjoy high interest rates, medium, long term saving opportunities.\nInvestment Certificates\nA , B  & C certificates\nBelady Certificates\nFor Egyptian expatriates, enjoy high interest rates on short, medium, long term saving opportunities\nCommon Features\nCertificates are nominal and may not be negotiated, endorsed, transferred, discounted, pledged or disposed of via any form of ownership transfer.\nCertificates are renewed automatically according to the published interest rate.",
+      "links": [],
+      "chunkCount": 1,
+      "scrapedAt": "2026-08-19T17:49:15.227Z"
+    },
+    {
+      "pageId": "page-16",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%22Ahly%20Net%20-%20Personal_16537%22%7D",
+      "depth": 1,
+      "title": "National Bank of Egypt - Al Ahly Net - Retail",
+      "container": ".catagory_landing",
+      "textLength": 3292,
+      "text": "Al Ahly Net - Retail offers a state-of-the-art, easy-to-use, and secure banking experience. Al Ahly Net provides cutting-edge banking services that can be processed anywhere and anytime. These services include the following:\nAl Ahly Net/NBE Mobile self-registration\nActivate soft token (NBE Token)\nApply for an unsecured credit card and follow up on the application.\nApply for an unsecured personal cash loan/auto loan and follow up on the application.\nUse the multiple transfer service which enables you to process more than one internal/ domestic transfer faster and in one step only.\nUse a one-off internal/domestic transfer service without adding a payee.\nInstantly view and review all types of accounts/certificates/deposits/ loans/ and cards.\nInquire about, purchase, or redeem mutual funds.\nCreate and modify investment accounts.\nPurchase/redeem/ amend certificates and deposits.\nActivate/stop/ issue a replacement card/ request a new PIN/ reset PIN for credit cards.\nActivate/ stop/ request a new PIN / reset PIN for payroll cards.\nUse debit card services:\nActivate new or renewed debit cards\nRequest a new PIN\nReset PIN\nIssue or stop a new card\nUse prepaid card services:\nMake a transfer from an account/a prepaid card to another prepaid card held by the same customer.\nInquire about card details.\nActivate new /renewed cards.\nRequest a new PIN.\nReset PIN.\nIssue or stop a new card.\nIssue new prepaid card\nstatement of the card.\nMake credit card payments.\nMake internal transfers.\nMake internal/domestic transfers from own account to other accounts with NBE or with other banks, in the local currency only.\nMake domestic transfers from own account to accounts with other banks in Egypt, in local currency, using the International Bank Account Number (IBAN) .\nTransfer funds to e-wallets inside Egypt.\nDownload e-statement of credit cards and consolidated accounts.\nEdit personal information, such as e-mail and mailing address.\nActivate/deactivate/ refresh the hard token.\nUse Fawry services.\nActivate dormant accounts.\nMake donations to registered entities on Al Ahly Net/NBE Mobile.\nInquire about cheque status and cheques under collection.\nCreate/ stop/inquire about standing instructions.\nOpen sub-accounts for existing customers.\nUse personal financial management (PFM) service.\nRequest I-Score credit report inquiry and download it in PDF format.\nMake merchant payments.\nYou can Download NBE Mobile through the following link or search for “NBE Mobile” in your store:\nDownload NBE Mobile application from the App Store for iPhone\nDownload\nDownload NBE Mobile application from Google Play for Android\nDownload\nSoft token for retail customers\nDownload and use the soft token to authenticate financial transactions via the following links:\nDownload Soft Token application from the App Store for iPhone\nDownload\nDownload Soft Token application from Google Play for Android\nDownload\nFor further details and assistance on Al Ahly Net or NBE Mobile services, kindly refer to:\nAl Ahly Net User Guide for Retail Customers\"Click Here\"\nNBE Mobile User Guide for Retail Customers \"Click Here\"\nHard Token User Guide \"Click Here\"\nSoft Token User Guide \"Click Here\"\nLogin\nTo subscribe to the service, please \"Click Here\" and follow the self-registration steps or visit the nearest NBE branch.",
+      "links": [],
+      "chunkCount": 3,
+      "scrapedAt": "2026-08-19T17:49:29.718Z"
+    },
+    {
+      "pageId": "page-17",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2216641%22%7D",
+      "depth": 1,
+      "title": "National Bank of Egypt - Al Ahly Mobile",
+      "container": ".catagory_landing",
+      "textLength": 3355,
+      "text": "NBE Mobile - Retail offers a state-of-the-art, easy-to-use, and secure banking experience. NBE Mobile provides many cutting-edge banking services that can be processed anywhere and anytime. These services include the following:\nAl Ahly Net/NBE Mobile self-registration\nActivate soft token (NBE Token)\nUse biometric authentication (Face ID – Touch ID) for login\nApply for an unsecured credit card and follow up on the application.\nApply for an unsecured personal cash loan/auto loan and follow up on the application.\nUse the multiple transfer service which enables you to process more than one internal/ domestic transfer faster and in one step only.\nUse a one-off internal/domestic transfer service without adding a payee.\nInstantly view and review all types of accounts/certificates/deposits/ loans/ and cards.\nInquire, purchase, or redeem mutual funds.\nCreate and modify investment accounts.\nPurchase/redeem/ amend certificates and deposits.\nActivate/ stop/ issue a replacement card/request a new PIN/ reset the PIN for credit cards\nActivate/ stop/ request a new PIN / reset PIN for payroll cards.\nUse debit card services:\nActivate new or renewed debit cards\nRequest a new PIN\nReset PIN\nIssue or stop a new card\nUse prepaid card services:\nMake a transfer from an account/a prepaid card to another prepaid card held by the same customer.\nInquire about card details.\nActivate new /renewed cards.\nRequest a new PIN.\nReset PIN.\nIssue or stop a new card.\nstatement of the card.\nIssue new prepaid card\nMake credit card payments.\nMake internal transfers.\nMake internal/domestic transfers from own account to other accounts with NBE or with other banks, in the local currency only.\nMake domestic transfers from own account to accounts with other banks in Egypt, in local currency, using the International Bank Account Number (IBAN) .\nTransfer funds to e-wallets inside Egypt.\nDownload e-statement of credit cards and consolidated accounts.\nEdit personal information, such as e-mail and mailing address.\nActivate/deactivate/ refresh the hard token.\nUse Fawry services.\nActivate dormant accounts.\nMake donations to registered entities on Al Ahly Net/NBE Mobile.\nInquire about cheque status and cheques under collection.\nPlace, stop, and inquire about standing instructions\nOpen sub-accounts for existing customers.\nUse personal financial management (PFM) service.\nRequest I-Score credit report inquiry and download it in PDF format.\nMake merchant payments.\nYou can Download NBE Mobile through the following link or search for “NBE Mobile” in your store:\nDownload NBE Mobile application from the App Store for iPhone\nDownload\nDownload NBE Mobile application from Google Play for Android\nDownload\nSoft token for retail customers\nDownload and use the soft token to authenticate financial transactions via the following links:\nDownload Soft Token application from the App Store for iPhone\nDownload\nDownload Soft Token application from Google Play for Android\nDownload\nFor further details and assistance on Al Ahly Net or NBE Mobile services, kindly refer to:\nAl Ahly Net User Guide for Retail Customers\"Click Here\"\nNBE Mobile User Guide for Retail Customers \"Click Here\"\nHard Token User Guide \"Click Here\"\nSoft Token User Guide \"Click Here\"\nLogin\nTo subscribe to the service, please \"Click Here\" and follow the self-registration steps or visit the nearest NBE branch.",
+      "links": [],
+      "chunkCount": 3,
+      "scrapedAt": "2026-08-19T17:49:40.267Z"
+    },
+    {
+      "pageId": "page-18",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2215514%22%7D",
+      "depth": 1,
+      "title": "National Bank of Egypt - NBE Phonecash",
+      "container": ".catagory_landing",
+      "textLength": 3061,
+      "text": "Now You Can Register to Al Ahly Phone Cash Service Online , Just Click Here\nUse your \"NBE Phonecash\" wallet to make your daily payments around the clock from anywhere through the easiest and most secure way. The service is available for NBE or non-NBE customers as of age 15+.\nThe services available on NBE Phonecash application:\nLink/remove cards:\nNow you can link/remove your own NBE cards through the application from \"My Wallet\" tab.\nActivate wallet:\nOnce you subscribe to the service, Activate your wallet upon registration/downloading the application from the mobile store and entering the required data, then the system will verify it and you will instantly receive an activation code without contacting the call center.\nWallet balance:\nThe wallet available balance is displayed on the application’s home screen.\nFinancial Transactions:\nView your last 5 transactions on the wallet from the application's home screen.\nNotifications:\nView notifications related to any received transfers in addition to other new notifications.\nReceiving international remittances:\nReceiving electronic international remittances instantly only in Egyptian pound, via PhoneCash wallet 24/7. To view the list of agents and correspondent banks: Click Here\nNew services on NBE PhoneCash:\nInquire whether the mobile phone number is already linked to a \"mobile wallet\" or not.\nCancel subscription to the NBE Phonecash service.\nRequest an e-statement of account showing the wallet transactions within 6 months to be sent to your e-mail in PDF format.\nRate the quality of the service provided and share your experience with us through the application.\nView different services fees from the pricing list on the application and inquire about Fawry outlets\nFor further details and assistance on NBE Phonecash services , kindly refer to:\nNBE Phonecash User Guide \"Click Here\"\nIn Collaboration with meeza Digital\nService features\nHow to subscribe\nFAQs\nPhone Cash wallet allows the customer to access the following services:\nTransfer money:\nTransfer money from your NBE Phone Cash wallet to any other wallet within the Arab Republic of Egypt in the local currency in real time.\nOnline purchases:\nThe purchase is made via creating a virtual card for a one-time use (a one-time purchase), valid only for 24 hours. It can be used locally.\nFawry services:\nYou can recharge and pay your mobile phone bill; make donations; pay internet ADSL bills as well as electricity, water and gas bills; and make use of an extensive range of services.\nDeposit/withdrawal:\nYou can deposit/withdraw cash through NBE branches and ATMs as well as other banks’ ATMs with \"Meeza\" logo in addition to Fawry-enabled outlets nation-wide.\nLoading the wallet:\nYou can directly load your NBE Phone Cash wallet by linking your own NBE MasterCard ,Visa and Meeza cards (Credit, Debit, Prepaid and Payroll) to the wallet.\nReceive domestic transfers:\nReceive ACH transfer on the wallet.\nPurchase service:\nYou can purchase and pay using QR code through Phone Cash wallet, for more information about NBE Merchants Click here",
+      "links": [
+        "https://www.nbe.com.eg/NBE/E/#/AR/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D9%81%D9%88%D9%86%20%D9%83%D8%A7%D8%B4%20-%20%D8%AA%D8%B3%D8%AC%D9%8A%D9%84%20%D8%B0%D8%A7%D8%AA%D9%8A_16646%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22ExpatriatesTransfers%22%2C%22ProductID%22%3A%2215526%22%7D",
+        "https://www.nbe.com.eg/",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ContactUs"
+      ],
+      "chunkCount": 3,
+      "scrapedAt": "2026-08-19T17:49:56.280Z"
+    },
+    {
+      "pageId": "page-19",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2215505%22%7D",
+      "depth": 1,
+      "title": "National Bank of Egypt - Al Ahly e-Branch",
+      "container": ".catagory_landing",
+      "textLength": 6171,
+      "text": "The new generation of bank branches based on self-serv. services through electronic, digital channels\nSelf-serve services\nTo Subscribe or request some of NBE services and products in a quick way using e-forms through self-serve. desk (touch screen) , also you will be able to access to your internet banking services.\nPrinting a statement of account.\nIssuing pre-paid cards.\nInformation update.\nSubscription to Al Ahly Net.\nSubscription to Al Ahly Phone Cash.\nPurchase and redemption of certificates.\nOpening accounts for new and existing customers.\nGiving standing instructions with respect to cards.\nPrimary/supplementary debit card issuance request.\nTime deposit issuance & redemption.\nTransfer between own accounts in case of insufficient balance.\nITM\nITM is standing for (Interactive Teller Machine) which is a video-based interactive technology allowing customers to conduct transactions and banking services driven by a centrally based teller , in a highly engaging real time video/audio interaction to provide :\nCash withdrawal up to EGP 50,000.\nCash deposit up to EGP 50,000.\nDepositing NBE cheques for collection (Retail) .\nVideo call\nAllows customers to contact NBE customer service representative visually for inquiries and assistance for any detailed bank products and services.\nInteractive screens\nInquiring about NBE’s products.\nWatching promotional and informational videos of products.\nAl Ahly phone\nDirect access NBE call center to Take most of services provided through Ahly phone.\nHelp desk\nTo provide guidance & assist through our customer service representative in using branch channels.\nFind us:\nBranch Name Address Available Service Working Hours Area\nTower Branch\nNBE Tower, 1187 Corniche El Nil St. - Bolaq Abo Elela\nAll Services Are Available Except ITM\n8.30am : 3pm / 5Days\nCairo\nCity Stars Mall\nInside of City Stars Mall Gate 6 - Nasr City\nAll Services\n11am : 7pm / 7Days\nCairo\nDown Town New Cairo\nPlot No 30 first Sector - Central Area - 5th settlement El Teseen Street - New Cairo\nAll Services Are Available Except ITM\n8.30am : 3pm / 5Days\nCairo\nAdministration Capital\nPlot No 26-A1 - Financial District - Banks Area - Administration Capital\nAll Services Are Available\n8.30am : 3pm / 5Days\nCairo\nCFC Mall e-Branch\nUnits No. 2-043 - Second Floor - CFC Mall - Taha Hussein St. - 5th settlement - Cairo\nAll Services Are Available 11am : 7pm / 7Days Cairo\nPoint 90 Mall\nInside of Pointr 90 Mall - Ground Floor- Infornt of the American University - Fifth Settlement\nAll Services 11am : 7pm / 7Days Cairo\nAl Rehab 2 Branch (E-Corner)\nUnit Number 106 in the tading zone (eastern market) - Al Rehab\nAll Services Except the Interactive Teller\n8.30am : 3pm / 5Days\nCairo\nMirage City (E-Corner)\nTrading Mall number 2, Mostafa Kamel Axis, New Cairo\nAll Services Except the Interactive Teller\n8.30am : 3pm / 5Days\nCairo\nCity Center Almaza\nInside of city Center Almaza - Gate 2 - Heliopolis\nAll Services\n11am : 7pm / 7Days\nCairo\nIconia Zamalek\nIconia Building - 16 Mohamed Bin Thakeb Street - Zamalek\nAll Services\n8.30am : 3pm / 5Days\nCairo\nElectronic Branch in the Main Branch\n24 Sherif street, Downtown\nAll Services\n8.30am : 3pm / 5Days\nCairo\nMaadi City Center\nMaadi City Center Mall, Units 32, 33 - Kattamya - Ring Road\nAll Sevices\n11am : 7pm / 7Days\nCairo\nMohamed Farid (e-Corner)\n147 Mohamed Fared - Downtown\nAll Services Are Available Except ITM\n8.30am : 3pm / 5Days Cairo\nMall Of Arabia\nInside of Mall Of Arabia - Gate 17 - 6th of October city\nAll Services\n11am : 7pm / 7Days\nGiza\nAllegria Sheikh Zayed\nPlot No 6 - District No 17 -Showroom No. 21 - Beverly Hills - Cairo Alexandria Desert Road, Area G2 - Sheikh Zayed City - Giza\nAll Services Are Available Except ITM\n8.30am : 3pm / 5Days\nGiza\nNew Giza\nNew Giza Sporting Club - 6th of October city\nAll Services\n8.30am : 4pm / 5Days\nGiza\nCentral Axis 6th of October (E-Corner)\nUnit 3 - 56 Central Axis- 6th of October city\nAll Services Except the Interactive Teller\n8.30am : 3pm / 5Days\nGiza\nShooting Club 6 October\nShooting Club October - The Third Touristic Area - 6 of October City\nAll Services\n11:00 am : 07:00 pm / 7 Days Giza\nConcordia Plaza\nLand Unit 13 - Eastern Expantions - 6th of October - next to El Gezira Club.\nAll Services\n8.30am : 3pm / 5Days\nGiza\nArkan Plaza Mall\nUnits No. AY-203 Ground Floor and VY-202 1st Floor - Arkan Mall 2 - Sheikh Zayed City\nAll Services Are Available\n8.30am : 3pm / 5Days Giza\nSan Stefano Mall\nInside San Stefano Mall - Second Floor - 399 El-Gaish St.\nAll Services Are Available\n8.30am : 3pm / 5Days Alexandria\nCity Center Alexandria\nInside City Center Mall - Infront of Downtown - Alexandria - Cairo Desert Road 6th Kilo\nAll Services\n11am : 7pm / 7Days\nAlexandria\nCity Mall - Shebin Al Koum\nGamal Abd El Naser El Bahary St. - Shebeen El-Kom - Menofia Governorate.\nAll Services\n11am : 7pm / 7Days\nDelta\nTanta Mall\nUnit Number G017 Ground Floor - Tanta Mall - Gharbia Governorate\nAll Services\n11am : 7pm / 7Days\nDelta\nAswan Plaza Mall\nFirst Floor Inside the Main Entrance of Aswan Plaza Mall - Aswan Governorate.\nAll Services\n11am : 7pm / 7Days\nUpper Egypt\nCity Scape Mall\nUnits number G-32 and G-33 - Ground Floor - City Scape Mall - New Minya - Minya Governorate.\nAll Services\n11am : 7pm / 7Days\nUpper Egypt\nAl Sayyad Mall - Damietta\nUnits 4, 77 - First Floor - Al Sayyad Mall - Damietta Governorate\nAll Services\n11am : 7pm / 7Days\nCanal Area\nHurghada City Center\nInside city center hurghada mall - Ground Floor - Hurghada - Red Sea Governorate.\nAll Services\n11am : 7pm / 7Days\nCanal Area\nIsmailia City Center\nInside Carrefour Mall - Ismailia Governorate.\nAll Services\n11am : 7pm / 7Days\nCanal Area\nAl Salam Road - Sharm Al Sheikh\nCriss Village Fence - Neema Bay - Al Salam Road - Sharm Al Sheikh - South Sinai Governorate\nAll Services\n11am : 7pm / 7Days\nCanal Area\nArabesque Mall\nUnit No. ED01A next to Carrefour Hypermarket - building E Open Air Mall – Madinaty-New Cairo\nAll Services\n11am : 7pm / 7Days\nCairo\nPlatinum Club\nCairo New Cairo Managerial building inside of Platinum Club\nAll Services\n11am : 7pm / 7Days Cairo\nMarina El Gouna\nMarina 3 Abu Tig Area - El Gouna - Hurghada - Red Sea Governorate.\nAll Services\n8:30 am : 3:00 pm / 5 Days Red Sea",
+      "links": [],
+      "chunkCount": 5,
+      "scrapedAt": "2026-08-19T17:50:08.091Z"
+    },
+    {
+      "pageId": "page-20",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22ecommerce%22%7D",
+      "depth": 1,
+      "title": "National Bank of Egypt - Al Ahly e-Shopping",
+      "container": "#divProductCatalogCategory",
+      "textLength": 1279,
+      "text": "National Bank of Egypt provides this service since 2002 to allow your customers to buy any product / service over the Internet for organizations request to add this service on their websites.\nNational Bank of Egypt is able to secure payment transactions over the Internet using the latest techniques of internationally recognized security, for example:\nSSL-Secure Sockets Layer\nMaster Card Secure Code-MCSC\nVerified By Visa-VBV\nAdvantages of E-payment service:\nSpeed the completion of the payment easily and securely from anywhere in the world.\nOnline follow-up to the transactions that are done to each accout of company with the ability to print detailed reports for review.\nThe possibility of collecting different currencies (Egyptian Pound - U.S. Dollar - Euro - Sterling Pound).\nSettlement of payments in the corporate accounts within 48 hours of work. \nVISA, Meeza and MasterCard cards are accepted.\nThe ability of cancellation transactions and refund amounts.\nOur customers (for example, and not exclusively)\nAviation\nDonation\nEducation and Culture\nEntertainment and Marketplaces\nE-Government\nRetail\nTelecommunication\nTourism\nTransportation\nFor more information, please contact us by :\nPhone: +202 - 25945000\nExt: 10986 / 10570 / 54420\nE-mail: Alahly-E-Shopping@nbe.com.eg",
+      "links": [],
+      "chunkCount": 1,
+      "scrapedAt": "2026-08-19T17:50:19.624Z"
+    },
+    {
+      "pageId": "page-21",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22AhlyPoints%22%7D",
+      "depth": 1,
+      "title": "National Bank of Egypt - Al Ahly Points",
+      "container": "#divProductCatalogCategory",
+      "textLength": 5579,
+      "text": "Welcome to AL-AHLY Points program\nNow with Al Ahly Points program, you can earn points through the following:\nRetail customers:\n1- Welcome gift points:\nWelcome gift points are credited upon the issuance of primary debit cards for the following premium-segment customers:\nSegment NBE Platinum Elite NBE Platinum Plus NBE Platinum NBE Titanium NBE Gold\nWelcome gift points 500,000 points 300,000 points 100,000 points 50,000 points 25,000 points\n2-Cards\nYou earn points once use your NBE Mastercard or Visa (credit, debit, or prepaid) card to make purchases at all merchants inside Egypt or abroad, excluding purchases not eligible to earn points according to Al Ahly Points terms and conditions, which include, but are not limited to installments at merchants, Fawry payments, purchases through Fawry POS, government payments, or loading NBE PhoneCash wallet).\nCard Type Points per EGP\nMastercard World Elite and Visa Infinite credit cards 2 points\nMastercard World and Visa Signature credit cards 1.75 points\nPlatinum credit cards 1.5 points\nMastercard World Elite debit cards 1.5 points\nMastercard World debit cards 1.25 points\nUEFA Champions League Mastercard credit cards 1 point\nTitanium, Gold, and Classic credit cards 1 point\nPlatinum debit cards 1 point\nTitanium debit cards 0.75 point\nGold and Classic debit cards 0.5 point\nUniversity and remittance prepaid cards 0.5 point\nRemittance cards (amounts in foreign currencies are converted to EGP) 1 point\nUSD Visa Platinum debit cards 20 points for every 1 USD\nUSD Visa Platinum Credit cards 22 points for every 1 USD\n3- Al Ahly Net/NBE Mobile – NBE's official website:\nPoints are awarded upon activating & using your Al Ahly Net / NBE Mobile based on your segment as follows:\nNBE Platinum Elite NBE Platinum Plus NBE Platinum NBE Titanium – Gold\nService activation 1,000 points\nOpening a sub-account (maximum 6 sub-accounts) 200 points 150 points 100 points 50 points\nDomestic transfers to accounts/cards (maximum 5 transfers monthly) 200 points 150 points 100 points 50 points\nTransfers to e-wallets (maximum 3 transfers monthly) 200 points 150 points 100 points 50 points\nSubscribing to the e-statement of account service (maximum 3 statements) 200 points 150 points 100 points 50 points\nCard activation (maximum 2 cards annually) 100 points 75 points 50 points 25 points\n4- NBE PhoneCash:\nPoints are awarded upon activating & using your NBE PhoneCash as follows:\nService activation (maximum 1 wallet) 1,000 points\nOnline cards (maximum 2 cards monthly) 20 points\nP2M (QR code payments) 1 point for every EGP\nCorporate customers:\nCorporate/B2B credit card\nPoints are earned when corporate credit cards are used in purchases at all merchants inside Egypt or abroad,excluding purchases not eligible to earn points according to Al Ahly Points terms and conditions, which include, but are not limited to installments at merchants, Fawry payments, purchases through Fawry POS, government payments, and loading NBE PhoneCash wallet).\nPoints are earned when B2B credit cards are used in local currency purchases from participating merchants inside Egypt.\nCard type\nPoints for every EGP 1\nCorporate credit card 1 point\nB2B credit card 0.1 point\nAs of 05/01/2026, earned points will expire after 24 months from the month in which points are earned, rather than 36 months, and may not be redeemed by the customer upon expiry. However, points earned before 05/01/2026 will remain valid for 36 months from the date on which points are earned and may not be redeemed by the customer upon expiry.\nYou can redeem points earned in the form of:\nShop4Cash\nYou can redeem points earned from using Al Ahly Points eligible cards, products, or services by logging into Al Ahly Points App and selecting the Shop4Cash service. This service automatically displays all the transactions you carried out using cards, which are eligible to earn points, in the local currency only during the last 30 days. You can select any transaction to have the transaction amount credited to the account/card used in making the purchase, and the number of points equivalent to the transaction amount will be deducted from your point balance.\nThe redemption value is EGP 0.01 per point (for example: 100 points = EGP 1). only .\nIn case the available points balance covers the selected transaction amount, the full transaction amount will be credited to the account/card used in making the purchase.\nIn case the available points balance is less than the transaction amount, only the amount equivalent to the number of points available will be credited to the account/card used in making the purchase.\nPay with Points\nThe customer (for retail customers) or the enterprise’s authorized signatory (for corporate customers) can redeem the points earned from using Al Ahly Points eligible cards, products, or services by visiting any participating merchant to directly pay with points for goods and/or services without the need to contact NBE’s Call Center or log into Al Ahly Points website.\nWhen paying with points at merchants, each point is worth EGP 0.01 (for example: 100 points = EGP 1).\nPWP Merchant Network Click here\nCash Rewards\nThe amount shall be credited to any of the Customer’s valid primary NBE credit cards in the local currency.\nRedemption can be made through Al Ahly Points website or app.\nWhen redeeming points for cash rewards, each point is worth EGP 0.005 (for example: 5,000 points = EGP 25).\nNBE Points Application: Google Play ,App Store\nNBE Points Website click here\nTo view the FAQs click here\nTerms and conditions apply\nTerms and Conditions",
+      "links": [],
+      "chunkCount": 5,
+      "scrapedAt": "2026-08-19T17:50:31.035Z"
+    },
+    {
+      "pageId": "page-22",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22magazine%22%7D",
+      "depth": 1,
+      "title": "National Bank of Egypt - NBE Magazine",
+      "container": "#divProductCatalogCategory",
+      "textLength": 645,
+      "text": " \nVersion 50\n \nVersion 49\n \nVersion 48\n \nVersion 47\n \nVersion 46\n \nVersion 45\n \nVersion 44\n \nVersion 43\n \nVersion 42\n \nVersion 41\n \nVersion 40\n \nVersion 39\n \nVersion 38\n \nVersion 37\n \nVersion 36\n \nVersion 35\n \nVersion 34\n \nVersion 33\n \nVersion 32\n \nSpecial Edition\n \nVersion 30\n \nVersion 29\n \nVersion 28\n \nVersion 27\n \nVersion 26\n \nVersion 25\n \nVersion 24\n \nVersion 23\n \nVersion 22\n \nVersion 21\n \nVersion 20\n \nVersion 19\n \nVersion 18\n \nVersion 17\n \nVersion 16\n \nVersion 15\n \nVersion 14\n \nVersion 13\n \nVersion 12\n \nVersion 11\n \nVersion 10\n \nVersion 9\n \nVersion 8\n \nVersion 7\n \nVersion 6\n \nVersion 5\n \nVersion 4\n \nVersion 3\n \nVersion 2\n \nVersion 1",
+      "links": [],
+      "chunkCount": 1,
+      "scrapedAt": "2026-08-19T17:50:42.936Z"
+    },
+    {
+      "pageId": "page-23",
+      "url": "https://www.nbe.com.eg/NBE/E/#/AR/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D9%81%D9%88%D9%86%20%D9%83%D8%A7%D8%B4%20-%20%D8%AA%D8%B3%D8%AC%D9%8A%D9%84%20%D8%B0%D8%A7%D8%AA%D9%8A_16646%22%7D",
+      "depth": 2,
+      "title": "البنك الأهلى المصرى - الاشتراك في خدمة الأهلي فون كاش",
+      "container": ".catagory_landing",
+      "textLength": 1084,
+      "text": "خطوات الاشتراك في خدمة الأهلي الفون كاش\nهذه الخدمة مقدمة لعملاء البنك الأهلي المصري المصدرة لهم بطاقات ماستركارد و فيزا و ميزة (ائتمان – خصم مباشر – المدفوعة مقدما – المرتبات)\nقم بإدخال رقمك القومي و كذلك رقم هاتفك المحمول المسجل لدى البنك حتى يتم استقبال طلبكم بنجاح\nسيقوم النظام بالتحقق من البيانات و سيقوم بإرسال رمز التحقق على هاتفك المحمول\nقم بإدخال رمز التحقق و سيقوم النظام بالتأكد من صحة الكود.\nقم بإدخال أول ستة أرقام وآخر أربع أرقام لأي من بطاقاتكم البنكية (الائتمان/ المرتبات/ الخصم المباشر/ المدفوعة مقدمًا).\nقم بإدخال رقم الهاتف المحمول المراد الاشتراك به والمسجل باسمكم لدى شركة الاتصالات التابع لها خط الهاتف المحمول و التأكد من أنه لا توجد محافظ الكترونية مسجلة على نفس رقم الهاتف المحمول حتى يتسنى تنفيذ طلبكم\nسيتم تسجيل طلبكم على النظام وسيتم فور تنفيذه ارسال رابط تحميل التطبيق.\nوفقا وتعليمات البنك المركزي المصري ، فقد تم:\nزيادة الحدود القصوى اليومية و الشهرية للمحفظة لتصبح 60 ألف جنيه مصري و 200 ألف جنيه مصري على التوالي ، و تم زيادة رصيد المحفظة ليصبح 100 ألف جنيه مصري.\nفي حال رغبة سيادتكم بتعديل رقم الهاتف المحمول المسجل لدى البنك،برجاء التوجه إلى أقرب فرع.",
+      "links": [],
+      "chunkCount": 1,
+      "scrapedAt": "2026-08-19T17:50:53.397Z"
+    },
+    {
+      "pageId": "page-24",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22ExpatriatesTransfers%22%2C%22ProductID%22%3A%2215526%22%7D",
+      "depth": 2,
+      "title": "National Bank of Egypt - Correspondents & Agents in the field of Expatriates’ transfers",
+      "container": ".catagory_landing",
+      "textLength": 1318,
+      "text": "National Bank of Egypt has great experiences in the field of Expatriates money transfers via multiple systems which are compatible with the most updated technology applied globally, in cooperation with the largest correspondents and agents as follows:\nKSA\nAl Rajhi Bank\nArab National Bank\nSaudi National Bank\nBank Al Bilad\nAl Inma Bank\nBank AlJazira\nThe Saudi Investment Bank\nKuwait\nAl Muzaini Exchange Co.\nBahrain Exchange Co.\nAl Mulla International Exchange Co.\nKuwait Bahrain International Exchange Co.\nLulu Exchange Co.\nAl Ansari Exchange Co.\nAman Exchange Co.\nAl Nada Int'l Exchange Co.\nJoyalukkas Exchange Co.\nAl Sultan Exchange Co.\nUAE\nLari Exchange Co.\nAl Fardan Exchange Co.\nAl Ansari Exchange\nLulu Int’l Exchange Co.\nInstant Cash\nBlue Remit.\nAl Fuad Exchange\nAl Dahab Exchange\nQatar\nGulf Exchange Co.\nNational Exchange Co.\nAl Fardan Exchange Co.\nCity Exchange Co.\nArabian Exchange Company\nJordan\nAlwaneh Exchange Co.\nKamal Exchange Co.\nKhalil Al Rahman Exchange Co.\nDahab Lilsarafah Company Ltd.\nMusharbash Exchange Co.\nOman\nUnimoni Exchange Co.\nModern Exchange Co.\nGlobal Money Exchange Co.\nBahrain\nZenje For Advance Remittance Services\nAlyousuf Exchange Co.\nUSA\nMastercard Transaction Services (US) LLC.\nTo join NBE's network in the field of E-Remittances, please approach us via:\nRemittances-Rm@nbe.com.eg",
+      "links": [],
+      "chunkCount": 1,
+      "scrapedAt": "2026-08-19T17:51:03.654Z"
+    },
+    {
+      "pageId": "page-25",
+      "url": "https://www.nbe.com.eg/",
+      "depth": 2,
+      "title": "National Bank of Egypt - Home",
+      "container": "main",
+      "textLength": 387,
+      "text": "Please note that this service is only for inquiring about the products and services offered by the Bank to retail and corporate customers. Keep your data safe and do not share the PIN codes or passwords of your accounts or cards. Please do not disclose your personal or financial data upon using the service.(Please note that the Bank will record all conversations for quality purposes).",
+      "links": [
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22UpdateYourKYCInitiative%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%22NBE%20phone%20Cash_15514%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22OpenYourBankAccountInEgypt%22}",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams={%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2219840%22}",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D8%A7%D9%86%D8%B6%D9%85%20%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A8%D9%86%D9%83%20%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A_18782%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D8%A7%D9%86%D8%B6%D9%85%20%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A8%D9%86%D9%83%20%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A_18719%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams={%22CategoryID%22%3A%2250%22,%22ProductID%22%3A%2216641%22}",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22284%22}",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams={%22CategoryID%22%3A%2250%22,%22ProductID%22%3A%2215505%22}",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22selfservices%22}%20%20",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22CreditCardsID%22}",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22PersonalLoansCatID%22}",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22NewAutoLoanID%22}",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22CertificatesID%22}",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%22Ahly%20Net%20-%20Personal_16537%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2216641%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2215514%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2215505%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22ecommerce%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22AhlyPoints%22%7D",
+        "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22magazine%22%7D"
+      ],
+      "chunkCount": 1,
+      "scrapedAt": "2026-08-19T17:51:15.599Z"
+    },
+    {
+      "pageId": "page-26",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ContactUs",
+      "depth": 2,
+      "title": "National Bank of Egypt - Contact us",
+      "container": "main",
+      "textLength": 387,
+      "text": "Please note that this service is only for inquiring about the products and services offered by the Bank to retail and corporate customers. Keep your data safe and do not share the PIN codes or passwords of your accounts or cards. Please do not disclose your personal or financial data upon using the service.(Please note that the Bank will record all conversations for quality purposes).",
+      "links": [],
+      "chunkCount": 1,
+      "scrapedAt": "2026-08-19T17:51:32.783Z"
+    },
+    {
+      "pageId": "page-27",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22ForigenCertificatesID%22%7D",
+      "depth": 2,
+      "title": "National Bank of Egypt - Saving Certificates - Foreign Currency",
+      "container": "#divProductCatalogCategory",
+      "textLength": 494,
+      "text": "New Golden\nMinimum Amount\n500 USD/Euro\nand multiplies\n## Duration\n3 - 5 - 7 Years\nInterest Rate\n4.75%\nUSD - 3 Years\n4.85%\nUSD - 5 Years\n4.90%\nUSD - 7 Years\n0.75%\nEuro\n(3 Years with Quarterly Frequency Only)\ncompare\nTo compare between products press...\nCommon Features\nCertificates are nominal and may not be negotiated, endorsed, transferred, discounted, pledged or disposed of via any form of ownership transfer.\nCertificates are renewed automatically according to the published interest rate.",
+      "links": [],
+      "chunkCount": 1,
+      "scrapedAt": "2026-08-19T17:51:42.862Z"
+    },
+    {
+      "pageId": "page-28",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22ForeignDeposits%22%7D",
+      "depth": 2,
+      "title": "National Bank of Egypt - Time Deposits - Foreign Currency",
+      "container": "#divProductCatalogCategory",
+      "textLength": 237,
+      "text": "## Multi Frequencies Time Deposits\n## Duration\n1 YearOr 3 years\n## Interest Frequency\nMonthly - Quarterly - Semiannual - Annual\n## Time Deposits interest rate paid at maturity\n## Duration\n1 weekto 1 Year\n## Interest Frequency\nAt maturity",
+      "links": [],
+      "chunkCount": 1,
+      "scrapedAt": "2026-08-19T17:51:53.973Z"
+    },
+    {
+      "pageId": "page-29",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22InvestmentCertificateCatID%22%7D",
+      "depth": 2,
+      "title": "National Bank of Egypt - Investment Certificates",
+      "container": "#divProductCatalogCategory",
+      "textLength": 1503,
+      "text": "The common features of certificate\nAll Certificates are nominal. They may not be traded, endorsed, transferred, discounted, pledged to third parties or disposed of in any form with a view to transferring ownership.\nCustomer may borrow or request credit cards of all types to be issued from any NBE branch against the Certificates in accordance with the applicable regulations and interest rates as at the date of borrowing.\nCertificates can be issued by way of a gift or donation according to conditions to be signed in this respect.\nIf the customer adds any information to the Certificate, NBE shall be entitled to take all legal proceedings against the customer.\nCertificates and the relevant interests are exempted from all kinds of taxes and stamp duties.\nUpon being informed that the Certificate holder has passed away and that such certificates have been renewed after the death date, the Bank shall promptly redeem such Certificate without the consent of the deceased customer's heirs.\nCertificate “A”\nMinimum amount\n500  EGP\nAnd its multiples\nDuration \n10 Years\nInterest rate\n12%\n## Interest frequency\nAccumulated\nCertificate “B”\nMinimum amount\n500  EGP\nAnd its multiples\nDuration \n1 Year\nInterest rate\n14%\n## Interest frequency\nMonthly\nCertificate “B”\nMinimum amount\n500  EGP\nAnd it's multiples\nDuration \n3 Years\nInterest rate\n15%\n## Interest frequency\nQuarterly\nGroup 'C' Lottery Certificate\nMinimum amount\n500 EGP\nDuration \n20 Years\nInterest rate\nNo interest\n## Interest frequency\nNo interest",
+      "links": [],
+      "chunkCount": 2,
+      "scrapedAt": "2026-08-19T17:52:06.091Z"
+    },
+    {
+      "pageId": "page-30",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22Bancassurance%22%7D",
+      "depth": 2,
+      "title": "National Bank of Egypt - Bancassurance",
+      "container": "#divProductCatalogCategory",
+      "textLength": 1442,
+      "text": "Bancassurance products in partnership with Misr Life Insurance Company\nNational Bank of Egypt, in cooperation with Misr Life Insurance Company, offers insurance and investment services through a variety of programs that meet the needs of NBE’s customers through NBE branches all over Egypt.\nMaash Bokra EGP Policy\nThe first of its kind in Egypt. It provides the insured with many benefits to secure a carefree future\nMaash Bokra USD Policy\nAn exclusive life insurance plan for Egyptians living abroad\nMisr Investment Policy\nprovides a protection and saving scheme that guarantees the insured an amount of money plus profits\nInvestment and Care Policy\nProvides triple benefits of insurance coverage, critical illness coverage, and a lucrative investment opportunity to cater to the needs of its holders\nMisr Protection and Investment Policy\nAn exclusive policy from Misr Life Insurance Company that provides both insurance and investment benefits, along with a draw every six months equal to the insured sum\nMisr Trilogy\nOffers a systematic insurance scheme to make three payments during the insurance period in order to meet the customers’ financial needs throughout the insurance period\nIbn Sina Health Insurance Policy\nThe plan covers all the standard medical services\nMisr Protection Policy\nOffers a protection scheme to secure families, businesses, or lenders\nMisr Protection Plus Policy\nProtects banks against the risks of credit default",
+      "links": [],
+      "chunkCount": 2,
+      "scrapedAt": "2026-08-19T17:52:17.591Z"
+    },
+    {
+      "pageId": "page-31",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22NewsCat1ID%22%2C%22ProductID%22%3A%2219848%22%7D",
+      "depth": 2,
+      "title": "National Bank of Egypt - Important Information Update Notice to Customers",
+      "container": ".catagory_landing",
+      "textLength": 5364,
+      "text": "Dear customer,\nPlease ensure that your information registered with the Bank is up to date, and that you regularly update your information upon any change. NBE is pleased to welcome you at any of its branches to update your information, to ensure that you continue to benefit from all banking services. Please note that the following services will be stopped after 3 months from the date on which you are required to update your information with the Bank. Please note that the Bank does not request any personal or banking information over the phone or via text messages.\n1-Al Ahly Net/ NBE Mobile service (retail and corporate customers):\nFirst: retail customers\nOpening new accounts for existing customers.\nActivating dormant accounts.\nOpening/ redeeming/ amending certificates and time deposits.\nResetting PIN/resetting PIN counter for credit cards.\nActivating debit cards.\nResetting PIN/resetting PIN counter for debit / prepaid cards\nDebit Card Link Accounts\nActivating prepaid and credit cards.\nTransferring to prepaid cards.\nIssue new prepaid card\nOpening mutual fund certificates.\nRedeeming mutual fund certificates.\nOpening/modifying investment accounts.\nApplying for a cash personal loan/ auto loan/ credit card.\nRequesting I-Score report.\nActivating soft token.\nSetting/resetting standing instructions (in relation to customer's own accounts).\nEditing personal information.\nActivating/ deactivating/ resetting the hard token.\nMaking single/multiple internal transfers to other accounts within NBE.\nMaking single/multiple domestic transfers.\nManaging payees.\nSetting/resetting standing instructions (in relation to other customers' accounts within NBE).\nUsing Fawry payment services.\nUsing E-Finance payment services.\nTransferring funds to any e-wallet inside Egypt.\nMaking donations to entities registered on Al Ahly Net/NBE Mobile.\nAl Ahly Net/NBE Mobile self-registration.\nSecond: corporate customers:\nActivating dormant accounts.\nOpening/ redeeming/ amending certificates and time deposits.\nPurchasing mutual fund certificates.\nRedeeming mutual fund certificates.\nOpening/modifying investment accounts.\nSetting/resetting standing instructions (in relation to customer's own accounts).\nMaking single/multiple internal transfers to other accounts within NBE.\nMaking single/multiple domestic transfers.\nManaging payees.\nSetting/resetting standing instructions (in relation to other customers' accounts within NBE).\nUsing Fawry payment services.\nUsing E-Finance payment services.\nTransferring funds to any e-wallet inside Egypt.\nMaking donations to entities registered on Al Ahly Net/NBE Mobile.\n2- Self-services via NBE website:\nInstant Payment Network (IPN) transfer service.\nPurchase of mutual fund certificates (inquiry about mutual fund balance will be still available).\nAl Ahly Net/NBE Mobile activation.\nApplication for EGP personal cash loan against Al Ahly Plus certificate.\nSubscription to the e-statements of accounts/cards service.\nEmail updating.\nNBE PhoneCash registration.\nI-Score inquiry service.\nChequebook issuance.\n3- Instant Payment Network (IPN) transfer service\nMoney transfer.\nDonations.\nBill payment.\nAcceptance of \"collect money\" requests.\nOther News\nYour Dream is Closer Than Ever- Unsecured Personal Cash Loans\nPublic Tenders Announcement\nBanking Tariff Important Notice\nPublic Tenders Announcement\nWindow opening for adding constructors and engineering consulting offices to NBE records\nA note about using NBE cards\nThe Fourth Daily Money Market Fund and Al Waed Fund Trading Hours During Ramadan\nA Note About Banking Tariffs Update\nThirty NBE branches are open daily from 5:00 pm to 9:00 pm\nUpdates On Credit Cards International Utilization\nUpdates On Debit Cards International Usage Parameters\nA Note To Holders of National Bank Of Egypt Mutual Fund Certificates\nGroup 'C' Certificates Draw Announcement\nImportant Notice\nNBE Signs a Joint Syndication Agreement\nA Note About E-statements of Account Service\nFraud Notice\nIt is important not to share any identification numbers, pin, or the numbers on the back of your payment cards with anyone to protect your financial transactions.\nAl Ahly Fawran Certificate suspension\nImportant Update - platinum certificate\nTenders For Branches\nDebit Cards Deposit Limit Through NBE's ATMs Announcement\nEgyptian Certificate Aman Draw Announcement\n(USD) Foreign Currency Certificates' Notification\nLocal Currency Certificates of Deposit's Notification\nA Note About Updating Information Using a Power of Attorney\nAuthorization form for receiving electronic payment cards - chequebooks\nUSD Belady Certificates Announcement\nA Note About Tariff Changes\nNBE Achieves 133.3 Billion Egyptian Pounds After Taxes\nGlobal Finance | NBE is the safes Egyptian bank in 2025\nAirport Platinum Lounge Announcement\nAirport Platinum Announcement\nNBE's Events & Exhibitions\nNBE Renews the Strategic Partnership with Orascom Pyramids\nAl Mostakabal Saving USD Saving Account Withdrawal Results\nIn cooperation with the Ministry of Higher Education and Scientific Research, a new donations account has been opened at the National Bank of Egypt\nAnnouncement of the opining of registration in the suppliers register 2026\nAnnouncement for Redemption Terms and Conditions Changes\nReturned Cheques Acknowledgment\nAnnouncement for Stopping the Platinum Variable Interest Certificate - with Quarterly Return\nshabab shamel",
+      "links": [],
+      "chunkCount": 5,
+      "scrapedAt": "2026-08-19T17:52:29.245Z"
+    },
+    {
+      "pageId": "page-32",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%20%D9%81%D9%8A%20%D8%AE%D8%AF%D9%85%D8%A9%20%D8%A7%D9%84%D9%83%D8%B4%D9%81%20%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%20%D9%84%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA%20%D9%88%20%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D9%82%D8%A7%D8%AA_18712%22%7D",
+      "depth": 2,
+      "title": "National Bank of Egypt - Subscribe To Electronic Statements Of Accounts Or Cards",
+      "container": ".catagory_landing",
+      "textLength": 1494,
+      "text": "How to subscribe\nEnter the National ID number (for Egyptians) or the Passport number (for Foreigners).\nEnter the Mobile phone number registered with the Bank and click \"Submit\".\nA onetime password \"OTP\" will be sent to the mobile no. registered with the Bank.\nType the OTP in \"Enter OTP\" field and click on \"Submit\".\nEnter the first six digits and the last four digits of any of your bank cards (credit/payroll/debit/prepaid).\nEnter/Update your email.\nTo update your email, input your new email, re-enter it and click \"Verify email\".\nAn email with an OTP will be sent to you. Check the \"Junk Folder\" for such email.\nEnter the OTP in the relevant field and click on \"Submit\".\nSelect \"Subscribe\" according to the products that you have: Bank accounts only, Credit cards only, Bank accounts and Credit cards.\nThe Service enables Foreigners to subscribe to the E-statement for Accounts only.\nCheck \"I agree to the terms & conditions\" and click on \"Submit\" after reading the terms & conditions of the service via the link below.\nTo view the terms and conditions of the service Click Here\nDear valued customer, please note that:\nThe credit card statement will be sent to the updated email as of the next round once you subscribe to the e-statement service.\nYou can review the statement of your (banking accounts / credit cards) via Al Ahly Net / NBE Mobile once you subscribe to the e-statement service.\nE-statement service is only available for the accounts with (monthly/quarterly) statement cycle.",
+      "links": [],
+      "chunkCount": 2,
+      "scrapedAt": "2026-08-19T17:52:41.922Z"
+    },
+    {
+      "pageId": "page-33",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22Tariff%22%7D",
+      "depth": 2,
+      "title": "National Bank of Egypt - Fees And Charges",
+      "container": "#divProductCatalogCategory",
+      "textLength": 161,
+      "text": "Fees And Charges\n \nIndividuals\n \nRetail Loans & Overdrafts\n \nRemittances\n \nCustody Services\n \nCorporates\n \nCheques\n \nCards\n \nSalary in advance\n \nDigital Services",
+      "links": [],
+      "chunkCount": 1,
+      "scrapedAt": "2026-08-19T17:52:58.781Z"
+    }
+  ],
+  "ragChunks": [
+    {
+      "id": "page-1-chunk-1",
+      "pageId": "page-1",
+      "url": "https://www.nbe.com.eg/NBE/E/",
+      "title": "National Bank of Egypt - Home",
+      "chunkIndex": 0,
+      "text": "Please note that this service is only for inquiring about the products and services offered by the Bank to retail and corporate customers. Keep your data safe and do not share the PIN codes or passwords of your accounts or cards. Please do not disclose your personal or financial data upon using the service.(Please note that the Bank will record all conversations for quality purposes).",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 0
+      }
+    },
+    {
+      "id": "page-2-chunk-1",
+      "pageId": "page-2",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22UpdateYourKYCInitiative%22%7D",
+      "title": "National Bank of Egypt - Update Your KYC in Egypt Initiative",
+      "chunkIndex": 0,
+      "text": "Update Your KYC Initiative\nThrough Embassies and Consulates of the Arab Republic of Egypt in Foreign Countries\nIn line with Egypt's efforts to streamline banking processes for Egyptian expats, and to facilitate the process of updating KYC information for Egyptian National Bank of Egypt (NBE) customers living abroad, an initiative was launched to enable the Bank’s customers to subscribe to NBE Mobile and Al Ahly Net and subscribe to the Bank’s electronic statements of accounts service through Egypt’s embassies and consulates in certain foreign countries.\nTo view the terms and condition of the “Update your KYC” initiative, \"Click Here\"",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-3-chunk-1",
+      "pageId": "page-3",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%22NBE%20phone%20Cash_15514%22%7D",
+      "title": "National Bank of Egypt - NBE Phonecash",
+      "chunkIndex": 0,
+      "text": "Now You Can Register to Al Ahly Phone Cash Service Online , Just Click Here\nUse your \"NBE Phonecash\" wallet to make your daily payments around the clock from anywhere through the easiest and most secure way. The service is available for NBE or non-NBE customers as of age 15+.\nThe services available on NBE Phonecash application:\nLink/remove cards:\nNow you can link/remove your own NBE cards through the application from \"My Wallet\" tab.\nActivate wallet:\nOnce you subscribe to the service, Activate your wallet upon registration/downloading the application from the mobile store and entering the required data, then the system will verify it and you will instantly receive an activation code without contacting the call center.\nWallet balance:\nThe wallet available balance is displayed on the application’s home screen.\nFinancial Transactions:\nView your last 5 transactions on the wallet from the application's home screen.\nNotifications:\nView notifications related to any received transfers in addition to other new notifications.\nReceiving international remittances:\nReceiving electronic international remittances instantly only in Egyptian pound, via PhoneCash wallet 24/7. To view the list of age",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-3-chunk-2",
+      "pageId": "page-3",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%22NBE%20phone%20Cash_15514%22%7D",
+      "title": "National Bank of Egypt - NBE Phonecash",
+      "chunkIndex": 1,
+      "text": "nts and correspondent banks: Click Here\nNew services on NBE PhoneCash:\nInquire whether the mobile phone number is already linked to a \"mobile wallet\" or not.\nCancel subscription to the NBE Phonecash service.\nRequest an e-statement of account showing the wallet transactions within 6 months to be sent to your e-mail in PDF format.\nRate the quality of the service provided and share your experience with us through the application.\nView different services fees from the pricing list on the application and inquire about Fawry outlets\nFor further details and assistance on NBE Phonecash services , kindly refer to:\nNBE Phonecash User Guide \"Click Here\"\nIn Collaboration with meeza Digital\nService features\nHow to subscribe\nFAQs\nPhone Cash wallet allows the customer to access the following services:\nTransfer money:\nTransfer money from your NBE Phone Cash wallet to any other wallet within the Arab Republic of Egypt in the local currency in real time.\nOnline purchases:\nThe purchase is made via creating a virtual card for a one-time use (a one-time purchase), valid only for 24 hours. It can be used locally.\nFawry services:\nYou can recharge and pay your mobile phone bill; make donations; pay intern",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-3-chunk-3",
+      "pageId": "page-3",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%22NBE%20phone%20Cash_15514%22%7D",
+      "title": "National Bank of Egypt - NBE Phonecash",
+      "chunkIndex": 2,
+      "text": "et ADSL bills as well as electricity, water and gas bills; and make use of an extensive range of services.\nDeposit/withdrawal:\nYou can deposit/withdraw cash through NBE branches and ATMs as well as other banks’ ATMs with \"Meeza\" logo in addition to Fawry-enabled outlets nation-wide.\nLoading the wallet:\nYou can directly load your NBE Phone Cash wallet by linking your own NBE MasterCard ,Visa and Meeza cards (Credit, Debit, Prepaid and Payroll) to the wallet.\nReceive domestic transfers:\nReceive ACH transfer on the wallet.\nPurchase service:\nYou can purchase and pay using QR code through Phone Cash wallet, for more information about NBE Merchants Click here",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-4-chunk-1",
+      "pageId": "page-4",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22OpenYourBankAccountInEgypt%22}",
+      "title": "National Bank of Egypt - Open your bank account in Egypt Initiative",
+      "chunkIndex": 0,
+      "text": "Open your bank account in Egypt Initiative\nThrough embassies and consulates of the Arab Republic of Egypt in foreign countries\nIn line with Egypt's efforts to streamline banking processes for Egyptian expats who wish to get banking products and services, an initiative was launched to enable them to open financial inclusion retail accounts with the National Bank of Egypt (NBE), and subscribe to NBE Mobile and Al Ahly Net, internet banking, upon completion of account opening requirements through embassies and consulates of the Arab Republic of Egypt in certain foreign countries.\nAvailable products and services\nAccounts that can be opened under the initiative for the new customers:\nAl Mostakabal Saving\nMinimum amount for account opening\nNo minimum required\nCurrency\nEGP\nCompare\nAl Mostakabal Saving Account\nMinimum amount for account opening\nNo minimum required\nCurrency\nUSD - Euro - Sterling Pound\nCompare\nUpon opening an account, the customer can automatically subscribe to internet banking services through which s/he can:\nOpen certificates available at NBE in US dollars \"Click Here\".\nBook deposits available at NBE in US dollars \"Click Here\".\nPurchase investment certificates of type (A-B",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-4-chunk-2",
+      "pageId": "page-4",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22OpenYourBankAccountInEgypt%22}",
+      "title": "National Bank of Egypt - Open your bank account in Egypt Initiative",
+      "chunkIndex": 1,
+      "text": ") available at NBE \"Click Here\".\nMake financial transfers from and to the account.\nPurchase/redeem mutual fund certificates.\nView the consolidated e-statement of accounts.\nThrough the initiative customers may issue a debit card and enjoy all the banking products and services upon visiting NBE's branches inside Egypt.\nEgyptian expats may subscribe to the \"Maash Bokra\" pension policy in US dollar, introduced in collaboration with Misr Life Insurance. through the link, \"Click Here\".",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-5-chunk-1",
+      "pageId": "page-5",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams={%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2219840%22}",
+      "title": "National Bank of Egypt - Apple Pay",
+      "chunkIndex": 0,
+      "text": "An easy, secure and private way to pay\nApple Pay lets you make purchases with your NBE card using any Apple device\nJust like you would with your physical card in store, online or in apps\nApple Pay on one.\nApple Pay on all.\nApple Pay is here and available on all your Apple devices. To get started, open Apple Wallet on your iPhone or Apple Watch, or select Wallet & Apple Pay in System Preferences on your iPad or Mac. Now you’re just a few taps away from using Apple Pay with your NBE card.\nUse it at your\nfavorite shops.\nYou can now pay with your NBE card anywhere you see or the symbol in-store, online, or in your favorite apps––it’s easy with Apple Pay.\nSave your time.\nCheck out faster.\nWith Apple Pay, information like your name and address automatically populate at checkout, online and in apps. Now paying is faster than ever. Just look at the Apple Pay button at checkout.\nDesigned to be secure.\nSo only you can pay.\nApple Pay uses the security features built into your Apple device to help keep your purchases private and secure. All transactions require Face ID, Touch ID, or your passcode, which are designed so only you can make purchases with Apple Pay. Your actual card number is neve",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-5-chunk-2",
+      "pageId": "page-5",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams={%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2219840%22}",
+      "title": "National Bank of Egypt - Apple Pay",
+      "chunkIndex": 1,
+      "text": "r stored on your device or Apple servers. And when you pay, your card number is never shared by Apple with merchants, keeping these details hidden and offering an additional level of protection against fraud.\nAdd your NBE card\nin a few steps\n1\nOpen your Apple Wallet on your iPhone.\n2\nTap the \"+\" button then tab Debit or Credit Card.\n3\nFollow the steps on your screen to add a new card.\nThe card benefits you love, with Apple Pay\nWhen you use your NBE card with Apple Pay, you will get the benefits and rewards you love - just like you would with your physical card\nLearn more about using Apple Pay",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-6-chunk-1",
+      "pageId": "page-6",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D8%A7%D9%86%D8%B6%D9%85%20%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A8%D9%86%D9%83%20%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A_18782%22%7D",
+      "title": "National Bank of Egypt - Branch Appointment Booking",
+      "chunkIndex": 0,
+      "text": "Appointment booking service\nService\nThe service enables all NBE or non-NBE customers to book an appointment through NBE's website.\nThe branches at which the booking service is available will appear to the customers when they attempt to book an appointment. The service is free of charge and available 24/7.\nCustomers are allowed to book only one appointment across all NBE branches where this service is available, within official working hours.\nCustomers can amend the scheduled appointment date and/or time as well as cancel it if no longer needed.\nThe customer can amend the date of their scheduled appointment at any time before the actual timing of the appointment specified by them.\nThe timing of the appointment cannot be changed to another time on the same appointment day.\nTo check in, please show up at the branch at least one minute before the scheduled appointment and no later than 15 minutes.\nThe customer cannot book an appointment for the same day.\nSteps for appointment booking through NBE's website:\nEnter your national ID number and mobile phone number.\nIf you are an NBE customer: enter your national ID number and mobile phone number registered with NBE. If you enter a national",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-6-chunk-2",
+      "pageId": "page-6",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D8%A7%D9%86%D8%B6%D9%85%20%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A8%D9%86%D9%83%20%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A_18782%22%7D",
+      "title": "National Bank of Egypt - Branch Appointment Booking",
+      "chunkIndex": 1,
+      "text": "ID or mobile phone number that is not registered with NBE, you will not be able to proceed with appointment booking, and you will be directed to visit the branch to update your information.\nEnter your e-mail address (optional), then click “Submit”.\nChoose the department (Customer Service, Teller or Reception), or IBAG (only branches where the service is available will be shown), select the required service, then click “Submit”.\nIf your information must be updated, you will be directed to Information Update service only. Once you show up at the branch at the scheduled appointment, you will be transferred to any other department/service at the branch after you complete the procedures required for information update.\nChoose the required NBE branch through one of the following methods\nIf you have agreed to sharing your location with NBE, you can select from the nearest 10 branches that will appear to you.\nIf you want to choose a specific branch or you do not want to share your location through NBE's website, you can choose the region, the area then the branch which you want to visit from the available branches in the region and area. (Note: You can type the branch name directly after s",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-6-chunk-3",
+      "pageId": "page-6",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D8%A7%D9%86%D8%B6%D9%85%20%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A8%D9%86%D9%83%20%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A_18782%22%7D",
+      "title": "National Bank of Egypt - Branch Appointment Booking",
+      "chunkIndex": 2,
+      "text": "electing the region and area), then click “Submit”.\nChoose the preferred day and time for your appointment, then click “Submit”.\nYour scheduled appointment details will be displayed, including all the information entered in the previous steps (department, service, branch name, appointment number, date, and time). You can download the appointment details or amend/cancel the appointment.\nWhen you arrive at the branch at your scheduled appointment time, you can check in using one of the following methods:\nScan the QR Code given with the booked appointment details to check-in and print your appointment details (only available at branches which have QR code readers).\nSelect the “Check-In” option on the kiosk screen, enter the mobile number, then your appointment time and required service will be displayed. Press the “Appointment” button to receive your appointment details and complete the check-in process.\nAnnouncement\nBranches located in clubs and sovereign entities are accessible to authorized persons only.\nPlease note that if your appointment falls on an official public holiday announced by the Central Bank of Egypt (CBE), it will be automatically canceled. Therefore, kindly schedule",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-7-chunk-1",
+      "pageId": "page-7",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D8%A7%D9%86%D8%B6%D9%85%20%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A8%D9%86%D9%83%20%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A_18719%22%7D",
+      "title": "National Bank of Egypt - Become An NBE Customer",
+      "chunkIndex": 0,
+      "text": "Dear Valued Customer,\nKindly be informed with the following:\nThis service is provided only to new retail customers to the bank who are residents in Egypt, over 21 years old, and have a valid National Identification Number (National Identification Number written in a valid passport is accepted “but the passport number is not accepted”).\nThis service isn't available with power of attorney, for minors, as a gift account, and for people who can’t read or write.\nTo secure the original requested documents and obtain the physical signature in order to complete your request, the National Bank of Egypt offers two options:\nVisit one of the NBE branches:\nVisit one of the NBE's e-branches: Choose the time and date to visit that branch. If, for whatever reason, you miss your appointment, or you did not pay the branch a visit within 10 working days from the day of your appointment, your request will be automatically canceled and you will have to apply again. Kindly note that instant debit card issuance, is available only in select branches (specified when selecting the e-branch you will be visiting)\nVisit one of NBE's traditional branches:\nrequest to meet the Retail Banking Manager in person or",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-7-chunk-2",
+      "pageId": "page-7",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D8%A7%D9%86%D8%B6%D9%85%20%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A8%D9%86%D9%83%20%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A_18719%22%7D",
+      "title": "National Bank of Egypt - Become An NBE Customer",
+      "chunkIndex": 1,
+      "text": "whoever is on his behalf in the branch to direct you to the relevant colleague to speed up your application. If, for whatever reason, you did not pay the branch a visit within 10 working days from the day of submitting the request, your request will be automatically canceled and you will have to apply again\nRequest a personal visit from a bank employee (available only in select governorates). This service is only available to senior citizens (60 years old and older), women, and individual with special needs (provided that they can see, hear, read and write). An employee will contact you on the mobile number you entered in the application request (within two working days) to arrange with you the date and time of the visit and inform you of the requested documents so you can prepare them with copies to proceed with the application. If the employee couldn't reach you or couldn't arrange your appointment with you or you didn't prepare the requested documents, your request will be automatically canceled and you will have to apply again.\nAccount Opening Steps:\nEnter your NID and mobile number.\nEnter the OTP sent to the mobile number.(taking into consideration not to disclose it to anyone",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-7-chunk-3",
+      "pageId": "page-7",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D8%A7%D9%86%D8%B6%D9%85%20%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A8%D9%86%D9%83%20%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%20%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A_18719%22%7D",
+      "title": "National Bank of Egypt - Become An NBE Customer",
+      "chunkIndex": 2,
+      "text": ")\nEnter your email twice.\nEnter OTP sent to that email (please check the Junk Folder) taking into consideration not to disclose it to anyone.\nEnter the required Information for account opening request.\nFor signature submission and required document completion, please choose one of these options:\nVisit nearest branches.\nRequest a personal visit from a bank employee. (T&C applied)\nMark \"Check\" on Terms and Condition (Reading and Confirmation).\nYou will receive an email on the entered email address to confirm your request. (Please check the Junk Folder in case you don’t find it in the inbox.)",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-8-chunk-1",
+      "pageId": "page-8",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams={%22CategoryID%22%3A%2250%22,%22ProductID%22%3A%2216641%22}",
+      "title": "National Bank of Egypt - Al Ahly Mobile",
+      "chunkIndex": 0,
+      "text": "NBE Mobile - Retail offers a state-of-the-art, easy-to-use, and secure banking experience. NBE Mobile provides many cutting-edge banking services that can be processed anywhere and anytime. These services include the following:\nAl Ahly Net/NBE Mobile self-registration\nActivate soft token (NBE Token)\nUse biometric authentication (Face ID – Touch ID) for login\nApply for an unsecured credit card and follow up on the application.\nApply for an unsecured personal cash loan/auto loan and follow up on the application.\nUse the multiple transfer service which enables you to process more than one internal/ domestic transfer faster and in one step only.\nUse a one-off internal/domestic transfer service without adding a payee.\nInstantly view and review all types of accounts/certificates/deposits/ loans/ and cards.\nInquire, purchase, or redeem mutual funds.\nCreate and modify investment accounts.\nPurchase/redeem/ amend certificates and deposits.\nActivate/ stop/ issue a replacement card/request a new PIN/ reset the PIN for credit cards\nActivate/ stop/ request a new PIN / reset PIN for payroll cards.\nUse debit card services:\nActivate new or renewed debit cards\nRequest a new PIN\nReset PIN\nIssue or st",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-8-chunk-2",
+      "pageId": "page-8",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams={%22CategoryID%22%3A%2250%22,%22ProductID%22%3A%2216641%22}",
+      "title": "National Bank of Egypt - Al Ahly Mobile",
+      "chunkIndex": 1,
+      "text": "op a new card\nUse prepaid card services:\nMake a transfer from an account/a prepaid card to another prepaid card held by the same customer.\nInquire about card details.\nActivate new /renewed cards.\nRequest a new PIN.\nReset PIN.\nIssue or stop a new card.\nstatement of the card.\nIssue new prepaid card\nMake credit card payments.\nMake internal transfers.\nMake internal/domestic transfers from own account to other accounts with NBE or with other banks, in the local currency only.\nMake domestic transfers from own account to accounts with other banks in Egypt, in local currency, using the International Bank Account Number (IBAN) .\nTransfer funds to e-wallets inside Egypt.\nDownload e-statement of credit cards and consolidated accounts.\nEdit personal information, such as e-mail and mailing address.\nActivate/deactivate/ refresh the hard token.\nUse Fawry services.\nActivate dormant accounts.\nMake donations to registered entities on Al Ahly Net/NBE Mobile.\nInquire about cheque status and cheques under collection.\nPlace, stop, and inquire about standing instructions\nOpen sub-accounts for existing customers.\nUse personal financial management (PFM) service.\nRequest I-Score credit report inquiry and do",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-8-chunk-3",
+      "pageId": "page-8",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams={%22CategoryID%22%3A%2250%22,%22ProductID%22%3A%2216641%22}",
+      "title": "National Bank of Egypt - Al Ahly Mobile",
+      "chunkIndex": 2,
+      "text": "wnload it in PDF format.\nMake merchant payments.\nYou can Download NBE Mobile through the following link or search for “NBE Mobile” in your store:\nDownload NBE Mobile application from the App Store for iPhone\nDownload\nDownload NBE Mobile application from Google Play for Android\nDownload\nSoft token for retail customers\nDownload and use the soft token to authenticate financial transactions via the following links:\nDownload Soft Token application from the App Store for iPhone\nDownload\nDownload Soft Token application from Google Play for Android\nDownload\nFor further details and assistance on Al Ahly Net or NBE Mobile services, kindly refer to:\nAl Ahly Net User Guide for Retail Customers\"Click Here\"\nNBE Mobile User Guide for Retail Customers \"Click Here\"\nHard Token User Guide \"Click Here\"\nSoft Token User Guide \"Click Here\"\nLogin\nTo subscribe to the service, please \"Click Here\" and follow the self-registration steps or visit the nearest NBE branch.",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-9-chunk-1",
+      "pageId": "page-9",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22284%22}",
+      "title": "National Bank of Egypt - Security Awareness",
+      "chunkIndex": 0,
+      "text": "Dear Customer,\nDon't give out your personal / account / cards' data which includes, but not limited to, (card number(s) – One-time password \"OTP\" – the 3 digits at the back of the bank card \"CVV\") to any one or entity that requires them and always beware of any one asking for them.\nAlways protect your data and do not share it with anyone through phone or email and in case received such calls or emails please report it to NBE call center at 19623\nTo protect your card data, do not share card number or expiry date or the CVV number printed on the back side of the card to anyone\nWhen using e-commerce services and to protect your transactions avoid sharing the one time password (OTP) that is sent to you by NBE through SMS.\nEnsure to follow the official page for NBE on social media which contains the blue mark beside the name of the page\nTo protect your internet banking account, do not share your user name or password or hard token with anyone",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-10-chunk-1",
+      "pageId": "page-10",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams={%22CategoryID%22%3A%2250%22,%22ProductID%22%3A%2215505%22}",
+      "title": "National Bank of Egypt - Al Ahly e-Branch",
+      "chunkIndex": 0,
+      "text": "The new generation of bank branches based on self-serv. services through electronic, digital channels\nSelf-serve services\nTo Subscribe or request some of NBE services and products in a quick way using e-forms through self-serve. desk (touch screen) , also you will be able to access to your internet banking services.\nPrinting a statement of account.\nIssuing pre-paid cards.\nInformation update.\nSubscription to Al Ahly Net.\nSubscription to Al Ahly Phone Cash.\nPurchase and redemption of certificates.\nOpening accounts for new and existing customers.\nGiving standing instructions with respect to cards.\nPrimary/supplementary debit card issuance request.\nTime deposit issuance & redemption.\nTransfer between own accounts in case of insufficient balance.\nITM\nITM is standing for (Interactive Teller Machine) which is a video-based interactive technology allowing customers to conduct transactions and banking services driven by a centrally based teller , in a highly engaging real time video/audio interaction to provide :\nCash withdrawal up to EGP 50,000.\nCash deposit up to EGP 50,000.\nDepositing NBE cheques for collection (Retail) .\nVideo call\nAllows customers to contact NBE customer service repres",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-10-chunk-2",
+      "pageId": "page-10",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams={%22CategoryID%22%3A%2250%22,%22ProductID%22%3A%2215505%22}",
+      "title": "National Bank of Egypt - Al Ahly e-Branch",
+      "chunkIndex": 1,
+      "text": "entative visually for inquiries and assistance for any detailed bank products and services.\nInteractive screens\nInquiring about NBE’s products.\nWatching promotional and informational videos of products.\nAl Ahly phone\nDirect access NBE call center to Take most of services provided through Ahly phone.\nHelp desk\nTo provide guidance & assist through our customer service representative in using branch channels.\nFind us:\nBranch Name Address Available Service Working Hours Area\nTower Branch\nNBE Tower, 1187 Corniche El Nil St. - Bolaq Abo Elela\nAll Services Are Available Except ITM\n8.30am : 3pm / 5Days\nCairo\nCity Stars Mall\nInside of City Stars Mall Gate 6 - Nasr City\nAll Services\n11am : 7pm / 7Days\nCairo\nDown Town New Cairo\nPlot No 30 first Sector - Central Area - 5th settlement El Teseen Street - New Cairo\nAll Services Are Available Except ITM\n8.30am : 3pm / 5Days\nCairo\nAdministration Capital\nPlot No 26-A1 - Financial District - Banks Area - Administration Capital\nAll Services Are Available\n8.30am : 3pm / 5Days\nCairo\nCFC Mall e-Branch\nUnits No. 2-043 - Second Floor - CFC Mall - Taha Hussein St. - 5th settlement - Cairo\nAll Services Are Available 11am : 7pm / 7Days Cairo\nPoint 90 Mall\nIns",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-10-chunk-3",
+      "pageId": "page-10",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams={%22CategoryID%22%3A%2250%22,%22ProductID%22%3A%2215505%22}",
+      "title": "National Bank of Egypt - Al Ahly e-Branch",
+      "chunkIndex": 2,
+      "text": "ide of Pointr 90 Mall - Ground Floor- Infornt of the American University - Fifth Settlement\nAll Services 11am : 7pm / 7Days Cairo\nAl Rehab 2 Branch (E-Corner)\nUnit Number 106 in the tading zone (eastern market) - Al Rehab\nAll Services Except the Interactive Teller\n8.30am : 3pm / 5Days\nCairo\nMirage City (E-Corner)\nTrading Mall number 2, Mostafa Kamel Axis, New Cairo\nAll Services Except the Interactive Teller\n8.30am : 3pm / 5Days\nCairo\nCity Center Almaza\nInside of city Center Almaza - Gate 2 - Heliopolis\nAll Services\n11am : 7pm / 7Days\nCairo\nIconia Zamalek\nIconia Building - 16 Mohamed Bin Thakeb Street - Zamalek\nAll Services\n8.30am : 3pm / 5Days\nCairo\nElectronic Branch in the Main Branch\n24 Sherif street, Downtown\nAll Services\n8.30am : 3pm / 5Days\nCairo\nMaadi City Center\nMaadi City Center Mall, Units 32, 33 - Kattamya - Ring Road\nAll Sevices\n11am : 7pm / 7Days\nCairo\nMohamed Farid (e-Corner)\n147 Mohamed Fared - Downtown\nAll Services Are Available Except ITM\n8.30am : 3pm / 5Days Cairo\nMall Of Arabia\nInside of Mall Of Arabia - Gate 17 - 6th of October city\nAll Services\n11am : 7pm / 7Days\nGiza\nAllegria Sheikh Zayed\nPlot No 6 - District No 17 -Showroom No. 21 - Beverly Hills - Cairo Alexa",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-10-chunk-4",
+      "pageId": "page-10",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams={%22CategoryID%22%3A%2250%22,%22ProductID%22%3A%2215505%22}",
+      "title": "National Bank of Egypt - Al Ahly e-Branch",
+      "chunkIndex": 3,
+      "text": "ndria Desert Road, Area G2 - Sheikh Zayed City - Giza\nAll Services Are Available Except ITM\n8.30am : 3pm / 5Days\nGiza\nNew Giza\nNew Giza Sporting Club - 6th of October city\nAll Services\n8.30am : 4pm / 5Days\nGiza\nCentral Axis 6th of October (E-Corner)\nUnit 3 - 56 Central Axis- 6th of October city\nAll Services Except the Interactive Teller\n8.30am : 3pm / 5Days\nGiza\nShooting Club 6 October\nShooting Club October - The Third Touristic Area - 6 of October City\nAll Services\n11:00 am : 07:00 pm / 7 Days Giza\nConcordia Plaza\nLand Unit 13 - Eastern Expantions - 6th of October - next to El Gezira Club.\nAll Services\n8.30am : 3pm / 5Days\nGiza\nArkan Plaza Mall\nUnits No. AY-203 Ground Floor and VY-202 1st Floor - Arkan Mall 2 - Sheikh Zayed City\nAll Services Are Available\n8.30am : 3pm / 5Days Giza\nSan Stefano Mall\nInside San Stefano Mall - Second Floor - 399 El-Gaish St.\nAll Services Are Available\n8.30am : 3pm / 5Days Alexandria\nCity Center Alexandria\nInside City Center Mall - Infront of Downtown - Alexandria - Cairo Desert Road 6th Kilo\nAll Services\n11am : 7pm / 7Days\nAlexandria\nCity Mall - Shebin Al Koum\nGamal Abd El Naser El Bahary St. - Shebeen El-Kom - Menofia Governorate.\nAll Services\n11am :",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-10-chunk-5",
+      "pageId": "page-10",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams={%22CategoryID%22%3A%2250%22,%22ProductID%22%3A%2215505%22}",
+      "title": "National Bank of Egypt - Al Ahly e-Branch",
+      "chunkIndex": 4,
+      "text": "7pm / 7Days\nDelta\nTanta Mall\nUnit Number G017 Ground Floor - Tanta Mall - Gharbia Governorate\nAll Services\n11am : 7pm / 7Days\nDelta\nAswan Plaza Mall\nFirst Floor Inside the Main Entrance of Aswan Plaza Mall - Aswan Governorate.\nAll Services\n11am : 7pm / 7Days\nUpper Egypt\nCity Scape Mall\nUnits number G-32 and G-33 - Ground Floor - City Scape Mall - New Minya - Minya Governorate.\nAll Services\n11am : 7pm / 7Days\nUpper Egypt\nAl Sayyad Mall - Damietta\nUnits 4, 77 - First Floor - Al Sayyad Mall - Damietta Governorate\nAll Services\n11am : 7pm / 7Days\nCanal Area\nHurghada City Center\nInside city center hurghada mall - Ground Floor - Hurghada - Red Sea Governorate.\nAll Services\n11am : 7pm / 7Days\nCanal Area\nIsmailia City Center\nInside Carrefour Mall - Ismailia Governorate.\nAll Services\n11am : 7pm / 7Days\nCanal Area\nAl Salam Road - Sharm Al Sheikh\nCriss Village Fence - Neema Bay - Al Salam Road - Sharm Al Sheikh - South Sinai Governorate\nAll Services\n11am : 7pm / 7Days\nCanal Area\nArabesque Mall\nUnit No. ED01A next to Carrefour Hypermarket - building E Open Air Mall – Madinaty-New Cairo\nAll Services\n11am : 7pm / 7Days\nCairo\nPlatinum Club\nCairo New Cairo Managerial building inside of Platinum Cl",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-11-chunk-1",
+      "pageId": "page-11",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22selfservices%22}%20%20",
+      "title": "National Bank of Egypt - Self Services",
+      "chunkIndex": 0,
+      "text": "Dear Customer,\nIf you see a message requesting you to update your information while using self-service, we are pleased to welcome you at any NBE branch to update your information, in order to maintain the service(s). Some banking services will be stopped after three months from the date on which you are required to update your information with the Bank. Please note that the Bank does not request any personal or banking information over the phone or via text messages.\nTo find which services will be suspended, please visit the following link: \"Important Information Update Notice to Customers\"\nBranch Appointment Booking\nInstant Payment Network (IPN) Transfer Service\nBook An Appointment With A SME Business Development Specialist\nEGP personal cash loan against Al Ahly Plus certificate request.\nChequeBook Request For Retail Customers\nBecome An NBE Customer\nBecome an NBE Customer\nMutual Funds Issuing and Inquiry\nSubscribe To Electronic Statements Of Accounts Or Cards\nInquiry About The Incoming Electronic Foreign Remittances\nUpdate Email / Delivery Branch Service\nIBAN Inquiries\nNew Installment Amount After Deferment\nNBE PhoneCash - Self Registration\nI-score Inquiry Service",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-12-chunk-1",
+      "pageId": "page-12",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22CreditCardsID%22}",
+      "title": "National Bank of Egypt - Credit Cards",
+      "chunkIndex": 0,
+      "text": "Our dear customer,\nPlease commit to using your cards (credit, debit, and prepaid cards) in accordance with the terms and conditions of the card issuance, and do not use them in unusual transactions or allow others to use them inside or outside Egypt, in order to avoid suspending your cards.\nMastercard Standard\nMost used card in Egypt & abroad\nfor purchases and cash withdrawal\nMaximum Credit Limit\n9,999 EGP\nGrace Period\nup to 55 days\nfor purchases only\nAdditional Card Fees\n25 EGP\nCompare\nVisa Classic\nThe most used card in Egypt and abroad for purchases and cash withdrawal\nMaximum Credit Limit\n9,999 EGP\nGrace Period\nup to 55 days\nfor purchases only\nAdditional Card Fees\n25 EGP\nCompare\nMastercard Egyptair\nMasterCard Egyptair\nMaximum Credit Limit\n9,999 EGP\nGrace Period\nup to 55 days\nfor purchases only\nAdditional Card Fees\n25 EGP\nCompare\nVisa Gold\nEnjoy more benefits and high purchasing capabilities\nMaximum Credit Limit\n49,999 EGP\nGrace Period\nup to 55 days\nfor purchases only\nAdditional Card Fees\n1 Free\nCompare\nMastercard Titanium\nMaximum Credit Limit\n49,999 EGP\nGrace Period\nup to 55 days\nfor purchases only\nAdditional Card Fees\n1 Free\nCompare\nUEFA Champions League Mastercard\nEnter the wo",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-12-chunk-2",
+      "pageId": "page-12",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22CreditCardsID%22}",
+      "title": "National Bank of Egypt - Credit Cards",
+      "chunkIndex": 1,
+      "text": "rld of the UEFA Champions League!\nMaximum Credit Limit\n250,000 EGP\nGrace Period\nup to 57 days\nfor purchases only\nAdditional Card Fees\n1 Free\nCompare\nVisa Platinum\nA new concept of luxury\nMaximum Credit Limit\n250,000 EGP\nGrace Period\nup to 57 days\nfor purchases only\nAdditional Card Fees\n2 Free\nCompare\nUSD Visa Platinum\nA new concept of luxury with NBE USD Visa Platinum\nMaximum Credit Limit\n50,000 USD\nGrace Period\nup to 55 days\nfor purchases only\nAdditional Card Fees\nUSD 50\nCompare\nMastercard Platinum\nWelcome to a world of unlimited luxury and excellence\nMaximum Credit Limit\n250,000 EGP\nGrace Period\nup to 57 days\nfor purchases only\nAdditional Card Fees\n2 Free\nCompare\nMastercard World\nEnjoy a unique list style along with hospitality in various places worldwide\nMaximum Credit Limit\n500,000 EGP\nGrace Period\nup to 57 days\nfor purchases only\nAdditional Card Fees\n1000\nCompare\nVisa Signature\nRedefining luxury\nMaximum Credit Limit\n500,000 EGP\nGrace Period\nup to 57 days\nfor purchases only\nAdditional Card Fees\n1000\nCompare\nMastercard World Elite\nEnjoy a unique list style along with hospitality in various places worldwide\nMaximum Credit Limit\n3,000,000 EGP (Secured)\n1,500,000 EGP (Unsecured)\nGr",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-12-chunk-3",
+      "pageId": "page-12",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22CreditCardsID%22}",
+      "title": "National Bank of Egypt - Credit Cards",
+      "chunkIndex": 2,
+      "text": "ace Period\nup to 57 days\nfor purchases only\nAdditional Card Fees\n1000\nCompare\nVisa Infinite\nA new concept of luxury\nMaximum Credit Limit\n3,000,000 EGP (Secured)\n1,500,000 EGP (Unsecured)\nGrace Period\nup to 57 days\nfor purchases only\nAdditional Card Fees\n1000\nCompare\nTo compare between products press...\nAhly Discounts\nNBE Discounts Program (Exclusive merchant discounts and offers).\nAhly Installments\nNBE Installments Program (Up to 6-month interest-free installments).\nMonthly Offers\nMonthly Offers and Discounts (zero-interest, zero down payment, and zero administrative fees).\nAl Ahly Medical Program\nLoan on Phone Service\nNBE Contactless Bracelet\nCredit Card statement via E-mail - Service\nAl Ahly Points\nRenewal Fees Campaign\nIssuance fees cashback campaign",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-13-chunk-1",
+      "pageId": "page-13",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22PersonalLoansCatID%22}",
+      "title": "National Bank of Egypt - Personal Cash Loan",
+      "chunkIndex": 0,
+      "text": "With Salary/Installment Transfer\nWithout Salary / Installment Transfer\nBusiness owners and self-employed\nPensioners\nSurrogate Income Programs",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-14-chunk-1",
+      "pageId": "page-14",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22NewAutoLoanID%22}",
+      "title": "National Bank of Egypt - Auto Loan",
+      "chunkIndex": 0,
+      "text": "Loan features\nNo need for a guarantor.\nLoan amount up to EGP 3 mn. for employees, business owners/self-employed.\nFinancing up to 100% of the car price.\nFlexible loan tenors ranging from 1 year to 7 years.\nCompetitive interest rates.\nSpecial programs for corporate deals (group deals) with loan amounts up to EGP 5 mn.\nMinimum net monthly income of EGP 5,000.\nNo I-Score fees.\nNo account opening fees.\nMultiple programs for all customer segments:\nEmployee program with salary transfer.\nEmployee program with income proof.\nEmployee program with 40% down payment on the car price and 60% financing.\nBusiness owners/self-employed program with 50% down payment of the car price and 50% financing.\nBusiness owners/self-employed program with a 30% down payment on the car price and 70% financing.\nFinancing 100% of the car price against an additional collateral of 50% of the car price.\nBasic required documents from all customers\nCopy of valid National ID card.\nUtility bill (as per the approved policy).\nGeneral conditions\nBorrower's age shall be at least 21 years and shall not exceed 60 years at loan maturity (employees).\nBorrower's age shall be at least 25 years and shall not exceed 65 years at loan",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-14-chunk-2",
+      "pageId": "page-14",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22NewAutoLoanID%22}",
+      "title": "National Bank of Egypt - Auto Loan",
+      "chunkIndex": 1,
+      "text": "maturity (business owners and self-employed).\nCommissions and fees\nFor more information on retail loan fees and charges, \"Click Here\"\nCar Loans also can be granted against collateral (according to the approved policy).\n*For more details, please visit the nearest branch or contact our call center 19623.\n*Terms and conditions applied",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-15-chunk-1",
+      "pageId": "page-15",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams={%22CategoryID%22%3A%22CertificatesID%22}",
+      "title": "National Bank of Egypt - Saving Certificates",
+      "chunkIndex": 0,
+      "text": "Saving Certificates - Local Currency\nDifferent certificates types' that match the various needs of savers\nSaving Certificates - Foreign Currency\nEnjoy high interest rates, medium, long term saving opportunities.\nInvestment Certificates\nA , B  & C certificates\nBelady Certificates\nFor Egyptian expatriates, enjoy high interest rates on short, medium, long term saving opportunities\nCommon Features\nCertificates are nominal and may not be negotiated, endorsed, transferred, discounted, pledged or disposed of via any form of ownership transfer.\nCertificates are renewed automatically according to the published interest rate.",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-16-chunk-1",
+      "pageId": "page-16",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%22Ahly%20Net%20-%20Personal_16537%22%7D",
+      "title": "National Bank of Egypt - Al Ahly Net - Retail",
+      "chunkIndex": 0,
+      "text": "Al Ahly Net - Retail offers a state-of-the-art, easy-to-use, and secure banking experience. Al Ahly Net provides cutting-edge banking services that can be processed anywhere and anytime. These services include the following:\nAl Ahly Net/NBE Mobile self-registration\nActivate soft token (NBE Token)\nApply for an unsecured credit card and follow up on the application.\nApply for an unsecured personal cash loan/auto loan and follow up on the application.\nUse the multiple transfer service which enables you to process more than one internal/ domestic transfer faster and in one step only.\nUse a one-off internal/domestic transfer service without adding a payee.\nInstantly view and review all types of accounts/certificates/deposits/ loans/ and cards.\nInquire about, purchase, or redeem mutual funds.\nCreate and modify investment accounts.\nPurchase/redeem/ amend certificates and deposits.\nActivate/stop/ issue a replacement card/ request a new PIN/ reset PIN for credit cards.\nActivate/ stop/ request a new PIN / reset PIN for payroll cards.\nUse debit card services:\nActivate new or renewed debit cards\nRequest a new PIN\nReset PIN\nIssue or stop a new card\nUse prepaid card services:\nMake a transfer fro",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-16-chunk-2",
+      "pageId": "page-16",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%22Ahly%20Net%20-%20Personal_16537%22%7D",
+      "title": "National Bank of Egypt - Al Ahly Net - Retail",
+      "chunkIndex": 1,
+      "text": "m an account/a prepaid card to another prepaid card held by the same customer.\nInquire about card details.\nActivate new /renewed cards.\nRequest a new PIN.\nReset PIN.\nIssue or stop a new card.\nIssue new prepaid card\nstatement of the card.\nMake credit card payments.\nMake internal transfers.\nMake internal/domestic transfers from own account to other accounts with NBE or with other banks, in the local currency only.\nMake domestic transfers from own account to accounts with other banks in Egypt, in local currency, using the International Bank Account Number (IBAN) .\nTransfer funds to e-wallets inside Egypt.\nDownload e-statement of credit cards and consolidated accounts.\nEdit personal information, such as e-mail and mailing address.\nActivate/deactivate/ refresh the hard token.\nUse Fawry services.\nActivate dormant accounts.\nMake donations to registered entities on Al Ahly Net/NBE Mobile.\nInquire about cheque status and cheques under collection.\nCreate/ stop/inquire about standing instructions.\nOpen sub-accounts for existing customers.\nUse personal financial management (PFM) service.\nRequest I-Score credit report inquiry and download it in PDF format.\nMake merchant payments.\nYou can Downlo",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-16-chunk-3",
+      "pageId": "page-16",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%22Ahly%20Net%20-%20Personal_16537%22%7D",
+      "title": "National Bank of Egypt - Al Ahly Net - Retail",
+      "chunkIndex": 2,
+      "text": "ad NBE Mobile through the following link or search for “NBE Mobile” in your store:\nDownload NBE Mobile application from the App Store for iPhone\nDownload\nDownload NBE Mobile application from Google Play for Android\nDownload\nSoft token for retail customers\nDownload and use the soft token to authenticate financial transactions via the following links:\nDownload Soft Token application from the App Store for iPhone\nDownload\nDownload Soft Token application from Google Play for Android\nDownload\nFor further details and assistance on Al Ahly Net or NBE Mobile services, kindly refer to:\nAl Ahly Net User Guide for Retail Customers\"Click Here\"\nNBE Mobile User Guide for Retail Customers \"Click Here\"\nHard Token User Guide \"Click Here\"\nSoft Token User Guide \"Click Here\"\nLogin\nTo subscribe to the service, please \"Click Here\" and follow the self-registration steps or visit the nearest NBE branch.",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-17-chunk-1",
+      "pageId": "page-17",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2216641%22%7D",
+      "title": "National Bank of Egypt - Al Ahly Mobile",
+      "chunkIndex": 0,
+      "text": "NBE Mobile - Retail offers a state-of-the-art, easy-to-use, and secure banking experience. NBE Mobile provides many cutting-edge banking services that can be processed anywhere and anytime. These services include the following:\nAl Ahly Net/NBE Mobile self-registration\nActivate soft token (NBE Token)\nUse biometric authentication (Face ID – Touch ID) for login\nApply for an unsecured credit card and follow up on the application.\nApply for an unsecured personal cash loan/auto loan and follow up on the application.\nUse the multiple transfer service which enables you to process more than one internal/ domestic transfer faster and in one step only.\nUse a one-off internal/domestic transfer service without adding a payee.\nInstantly view and review all types of accounts/certificates/deposits/ loans/ and cards.\nInquire, purchase, or redeem mutual funds.\nCreate and modify investment accounts.\nPurchase/redeem/ amend certificates and deposits.\nActivate/ stop/ issue a replacement card/request a new PIN/ reset the PIN for credit cards\nActivate/ stop/ request a new PIN / reset PIN for payroll cards.\nUse debit card services:\nActivate new or renewed debit cards\nRequest a new PIN\nReset PIN\nIssue or st",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-17-chunk-2",
+      "pageId": "page-17",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2216641%22%7D",
+      "title": "National Bank of Egypt - Al Ahly Mobile",
+      "chunkIndex": 1,
+      "text": "op a new card\nUse prepaid card services:\nMake a transfer from an account/a prepaid card to another prepaid card held by the same customer.\nInquire about card details.\nActivate new /renewed cards.\nRequest a new PIN.\nReset PIN.\nIssue or stop a new card.\nstatement of the card.\nIssue new prepaid card\nMake credit card payments.\nMake internal transfers.\nMake internal/domestic transfers from own account to other accounts with NBE or with other banks, in the local currency only.\nMake domestic transfers from own account to accounts with other banks in Egypt, in local currency, using the International Bank Account Number (IBAN) .\nTransfer funds to e-wallets inside Egypt.\nDownload e-statement of credit cards and consolidated accounts.\nEdit personal information, such as e-mail and mailing address.\nActivate/deactivate/ refresh the hard token.\nUse Fawry services.\nActivate dormant accounts.\nMake donations to registered entities on Al Ahly Net/NBE Mobile.\nInquire about cheque status and cheques under collection.\nPlace, stop, and inquire about standing instructions\nOpen sub-accounts for existing customers.\nUse personal financial management (PFM) service.\nRequest I-Score credit report inquiry and do",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-17-chunk-3",
+      "pageId": "page-17",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2216641%22%7D",
+      "title": "National Bank of Egypt - Al Ahly Mobile",
+      "chunkIndex": 2,
+      "text": "wnload it in PDF format.\nMake merchant payments.\nYou can Download NBE Mobile through the following link or search for “NBE Mobile” in your store:\nDownload NBE Mobile application from the App Store for iPhone\nDownload\nDownload NBE Mobile application from Google Play for Android\nDownload\nSoft token for retail customers\nDownload and use the soft token to authenticate financial transactions via the following links:\nDownload Soft Token application from the App Store for iPhone\nDownload\nDownload Soft Token application from Google Play for Android\nDownload\nFor further details and assistance on Al Ahly Net or NBE Mobile services, kindly refer to:\nAl Ahly Net User Guide for Retail Customers\"Click Here\"\nNBE Mobile User Guide for Retail Customers \"Click Here\"\nHard Token User Guide \"Click Here\"\nSoft Token User Guide \"Click Here\"\nLogin\nTo subscribe to the service, please \"Click Here\" and follow the self-registration steps or visit the nearest NBE branch.",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-18-chunk-1",
+      "pageId": "page-18",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2215514%22%7D",
+      "title": "National Bank of Egypt - NBE Phonecash",
+      "chunkIndex": 0,
+      "text": "Now You Can Register to Al Ahly Phone Cash Service Online , Just Click Here\nUse your \"NBE Phonecash\" wallet to make your daily payments around the clock from anywhere through the easiest and most secure way. The service is available for NBE or non-NBE customers as of age 15+.\nThe services available on NBE Phonecash application:\nLink/remove cards:\nNow you can link/remove your own NBE cards through the application from \"My Wallet\" tab.\nActivate wallet:\nOnce you subscribe to the service, Activate your wallet upon registration/downloading the application from the mobile store and entering the required data, then the system will verify it and you will instantly receive an activation code without contacting the call center.\nWallet balance:\nThe wallet available balance is displayed on the application’s home screen.\nFinancial Transactions:\nView your last 5 transactions on the wallet from the application's home screen.\nNotifications:\nView notifications related to any received transfers in addition to other new notifications.\nReceiving international remittances:\nReceiving electronic international remittances instantly only in Egyptian pound, via PhoneCash wallet 24/7. To view the list of age",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-18-chunk-2",
+      "pageId": "page-18",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2215514%22%7D",
+      "title": "National Bank of Egypt - NBE Phonecash",
+      "chunkIndex": 1,
+      "text": "nts and correspondent banks: Click Here\nNew services on NBE PhoneCash:\nInquire whether the mobile phone number is already linked to a \"mobile wallet\" or not.\nCancel subscription to the NBE Phonecash service.\nRequest an e-statement of account showing the wallet transactions within 6 months to be sent to your e-mail in PDF format.\nRate the quality of the service provided and share your experience with us through the application.\nView different services fees from the pricing list on the application and inquire about Fawry outlets\nFor further details and assistance on NBE Phonecash services , kindly refer to:\nNBE Phonecash User Guide \"Click Here\"\nIn Collaboration with meeza Digital\nService features\nHow to subscribe\nFAQs\nPhone Cash wallet allows the customer to access the following services:\nTransfer money:\nTransfer money from your NBE Phone Cash wallet to any other wallet within the Arab Republic of Egypt in the local currency in real time.\nOnline purchases:\nThe purchase is made via creating a virtual card for a one-time use (a one-time purchase), valid only for 24 hours. It can be used locally.\nFawry services:\nYou can recharge and pay your mobile phone bill; make donations; pay intern",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-18-chunk-3",
+      "pageId": "page-18",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2215514%22%7D",
+      "title": "National Bank of Egypt - NBE Phonecash",
+      "chunkIndex": 2,
+      "text": "et ADSL bills as well as electricity, water and gas bills; and make use of an extensive range of services.\nDeposit/withdrawal:\nYou can deposit/withdraw cash through NBE branches and ATMs as well as other banks’ ATMs with \"Meeza\" logo in addition to Fawry-enabled outlets nation-wide.\nLoading the wallet:\nYou can directly load your NBE Phone Cash wallet by linking your own NBE MasterCard ,Visa and Meeza cards (Credit, Debit, Prepaid and Payroll) to the wallet.\nReceive domestic transfers:\nReceive ACH transfer on the wallet.\nPurchase service:\nYou can purchase and pay using QR code through Phone Cash wallet, for more information about NBE Merchants Click here",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-19-chunk-1",
+      "pageId": "page-19",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2215505%22%7D",
+      "title": "National Bank of Egypt - Al Ahly e-Branch",
+      "chunkIndex": 0,
+      "text": "The new generation of bank branches based on self-serv. services through electronic, digital channels\nSelf-serve services\nTo Subscribe or request some of NBE services and products in a quick way using e-forms through self-serve. desk (touch screen) , also you will be able to access to your internet banking services.\nPrinting a statement of account.\nIssuing pre-paid cards.\nInformation update.\nSubscription to Al Ahly Net.\nSubscription to Al Ahly Phone Cash.\nPurchase and redemption of certificates.\nOpening accounts for new and existing customers.\nGiving standing instructions with respect to cards.\nPrimary/supplementary debit card issuance request.\nTime deposit issuance & redemption.\nTransfer between own accounts in case of insufficient balance.\nITM\nITM is standing for (Interactive Teller Machine) which is a video-based interactive technology allowing customers to conduct transactions and banking services driven by a centrally based teller , in a highly engaging real time video/audio interaction to provide :\nCash withdrawal up to EGP 50,000.\nCash deposit up to EGP 50,000.\nDepositing NBE cheques for collection (Retail) .\nVideo call\nAllows customers to contact NBE customer service repres",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-19-chunk-2",
+      "pageId": "page-19",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2215505%22%7D",
+      "title": "National Bank of Egypt - Al Ahly e-Branch",
+      "chunkIndex": 1,
+      "text": "entative visually for inquiries and assistance for any detailed bank products and services.\nInteractive screens\nInquiring about NBE’s products.\nWatching promotional and informational videos of products.\nAl Ahly phone\nDirect access NBE call center to Take most of services provided through Ahly phone.\nHelp desk\nTo provide guidance & assist through our customer service representative in using branch channels.\nFind us:\nBranch Name Address Available Service Working Hours Area\nTower Branch\nNBE Tower, 1187 Corniche El Nil St. - Bolaq Abo Elela\nAll Services Are Available Except ITM\n8.30am : 3pm / 5Days\nCairo\nCity Stars Mall\nInside of City Stars Mall Gate 6 - Nasr City\nAll Services\n11am : 7pm / 7Days\nCairo\nDown Town New Cairo\nPlot No 30 first Sector - Central Area - 5th settlement El Teseen Street - New Cairo\nAll Services Are Available Except ITM\n8.30am : 3pm / 5Days\nCairo\nAdministration Capital\nPlot No 26-A1 - Financial District - Banks Area - Administration Capital\nAll Services Are Available\n8.30am : 3pm / 5Days\nCairo\nCFC Mall e-Branch\nUnits No. 2-043 - Second Floor - CFC Mall - Taha Hussein St. - 5th settlement - Cairo\nAll Services Are Available 11am : 7pm / 7Days Cairo\nPoint 90 Mall\nIns",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-19-chunk-3",
+      "pageId": "page-19",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2215505%22%7D",
+      "title": "National Bank of Egypt - Al Ahly e-Branch",
+      "chunkIndex": 2,
+      "text": "ide of Pointr 90 Mall - Ground Floor- Infornt of the American University - Fifth Settlement\nAll Services 11am : 7pm / 7Days Cairo\nAl Rehab 2 Branch (E-Corner)\nUnit Number 106 in the tading zone (eastern market) - Al Rehab\nAll Services Except the Interactive Teller\n8.30am : 3pm / 5Days\nCairo\nMirage City (E-Corner)\nTrading Mall number 2, Mostafa Kamel Axis, New Cairo\nAll Services Except the Interactive Teller\n8.30am : 3pm / 5Days\nCairo\nCity Center Almaza\nInside of city Center Almaza - Gate 2 - Heliopolis\nAll Services\n11am : 7pm / 7Days\nCairo\nIconia Zamalek\nIconia Building - 16 Mohamed Bin Thakeb Street - Zamalek\nAll Services\n8.30am : 3pm / 5Days\nCairo\nElectronic Branch in the Main Branch\n24 Sherif street, Downtown\nAll Services\n8.30am : 3pm / 5Days\nCairo\nMaadi City Center\nMaadi City Center Mall, Units 32, 33 - Kattamya - Ring Road\nAll Sevices\n11am : 7pm / 7Days\nCairo\nMohamed Farid (e-Corner)\n147 Mohamed Fared - Downtown\nAll Services Are Available Except ITM\n8.30am : 3pm / 5Days Cairo\nMall Of Arabia\nInside of Mall Of Arabia - Gate 17 - 6th of October city\nAll Services\n11am : 7pm / 7Days\nGiza\nAllegria Sheikh Zayed\nPlot No 6 - District No 17 -Showroom No. 21 - Beverly Hills - Cairo Alexa",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-19-chunk-4",
+      "pageId": "page-19",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2215505%22%7D",
+      "title": "National Bank of Egypt - Al Ahly e-Branch",
+      "chunkIndex": 3,
+      "text": "ndria Desert Road, Area G2 - Sheikh Zayed City - Giza\nAll Services Are Available Except ITM\n8.30am : 3pm / 5Days\nGiza\nNew Giza\nNew Giza Sporting Club - 6th of October city\nAll Services\n8.30am : 4pm / 5Days\nGiza\nCentral Axis 6th of October (E-Corner)\nUnit 3 - 56 Central Axis- 6th of October city\nAll Services Except the Interactive Teller\n8.30am : 3pm / 5Days\nGiza\nShooting Club 6 October\nShooting Club October - The Third Touristic Area - 6 of October City\nAll Services\n11:00 am : 07:00 pm / 7 Days Giza\nConcordia Plaza\nLand Unit 13 - Eastern Expantions - 6th of October - next to El Gezira Club.\nAll Services\n8.30am : 3pm / 5Days\nGiza\nArkan Plaza Mall\nUnits No. AY-203 Ground Floor and VY-202 1st Floor - Arkan Mall 2 - Sheikh Zayed City\nAll Services Are Available\n8.30am : 3pm / 5Days Giza\nSan Stefano Mall\nInside San Stefano Mall - Second Floor - 399 El-Gaish St.\nAll Services Are Available\n8.30am : 3pm / 5Days Alexandria\nCity Center Alexandria\nInside City Center Mall - Infront of Downtown - Alexandria - Cairo Desert Road 6th Kilo\nAll Services\n11am : 7pm / 7Days\nAlexandria\nCity Mall - Shebin Al Koum\nGamal Abd El Naser El Bahary St. - Shebeen El-Kom - Menofia Governorate.\nAll Services\n11am :",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-19-chunk-5",
+      "pageId": "page-19",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%2250%22%2C%22ProductID%22%3A%2215505%22%7D",
+      "title": "National Bank of Egypt - Al Ahly e-Branch",
+      "chunkIndex": 4,
+      "text": "7pm / 7Days\nDelta\nTanta Mall\nUnit Number G017 Ground Floor - Tanta Mall - Gharbia Governorate\nAll Services\n11am : 7pm / 7Days\nDelta\nAswan Plaza Mall\nFirst Floor Inside the Main Entrance of Aswan Plaza Mall - Aswan Governorate.\nAll Services\n11am : 7pm / 7Days\nUpper Egypt\nCity Scape Mall\nUnits number G-32 and G-33 - Ground Floor - City Scape Mall - New Minya - Minya Governorate.\nAll Services\n11am : 7pm / 7Days\nUpper Egypt\nAl Sayyad Mall - Damietta\nUnits 4, 77 - First Floor - Al Sayyad Mall - Damietta Governorate\nAll Services\n11am : 7pm / 7Days\nCanal Area\nHurghada City Center\nInside city center hurghada mall - Ground Floor - Hurghada - Red Sea Governorate.\nAll Services\n11am : 7pm / 7Days\nCanal Area\nIsmailia City Center\nInside Carrefour Mall - Ismailia Governorate.\nAll Services\n11am : 7pm / 7Days\nCanal Area\nAl Salam Road - Sharm Al Sheikh\nCriss Village Fence - Neema Bay - Al Salam Road - Sharm Al Sheikh - South Sinai Governorate\nAll Services\n11am : 7pm / 7Days\nCanal Area\nArabesque Mall\nUnit No. ED01A next to Carrefour Hypermarket - building E Open Air Mall – Madinaty-New Cairo\nAll Services\n11am : 7pm / 7Days\nCairo\nPlatinum Club\nCairo New Cairo Managerial building inside of Platinum Cl",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-20-chunk-1",
+      "pageId": "page-20",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22ecommerce%22%7D",
+      "title": "National Bank of Egypt - Al Ahly e-Shopping",
+      "chunkIndex": 0,
+      "text": "National Bank of Egypt provides this service since 2002 to allow your customers to buy any product / service over the Internet for organizations request to add this service on their websites.\nNational Bank of Egypt is able to secure payment transactions over the Internet using the latest techniques of internationally recognized security, for example:\nSSL-Secure Sockets Layer\nMaster Card Secure Code-MCSC\nVerified By Visa-VBV\nAdvantages of E-payment service:\nSpeed the completion of the payment easily and securely from anywhere in the world.\nOnline follow-up to the transactions that are done to each accout of company with the ability to print detailed reports for review.\nThe possibility of collecting different currencies (Egyptian Pound - U.S. Dollar - Euro - Sterling Pound).\nSettlement of payments in the corporate accounts within 48 hours of work. \nVISA, Meeza and MasterCard cards are accepted.\nThe ability of cancellation transactions and refund amounts.\nOur customers (for example, and not exclusively)\nAviation\nDonation\nEducation and Culture\nEntertainment and Marketplaces\nE-Government\nRetail\nTelecommunication\nTourism\nTransportation\nFor more information, please contact us by :\nPhone:",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-21-chunk-1",
+      "pageId": "page-21",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22AhlyPoints%22%7D",
+      "title": "National Bank of Egypt - Al Ahly Points",
+      "chunkIndex": 0,
+      "text": "Welcome to AL-AHLY Points program\nNow with Al Ahly Points program, you can earn points through the following:\nRetail customers:\n1- Welcome gift points:\nWelcome gift points are credited upon the issuance of primary debit cards for the following premium-segment customers:\nSegment NBE Platinum Elite NBE Platinum Plus NBE Platinum NBE Titanium NBE Gold\nWelcome gift points 500,000 points 300,000 points 100,000 points 50,000 points 25,000 points\n2-Cards\nYou earn points once use your NBE Mastercard or Visa (credit, debit, or prepaid) card to make purchases at all merchants inside Egypt or abroad, excluding purchases not eligible to earn points according to Al Ahly Points terms and conditions, which include, but are not limited to installments at merchants, Fawry payments, purchases through Fawry POS, government payments, or loading NBE PhoneCash wallet).\nCard Type Points per EGP\nMastercard World Elite and Visa Infinite credit cards 2 points\nMastercard World and Visa Signature credit cards 1.75 points\nPlatinum credit cards 1.5 points\nMastercard World Elite debit cards 1.5 points\nMastercard World debit cards 1.25 points\nUEFA Champions League Mastercard credit cards 1 point\nTitanium, Gold, a",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-21-chunk-2",
+      "pageId": "page-21",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22AhlyPoints%22%7D",
+      "title": "National Bank of Egypt - Al Ahly Points",
+      "chunkIndex": 1,
+      "text": "nd Classic credit cards 1 point\nPlatinum debit cards 1 point\nTitanium debit cards 0.75 point\nGold and Classic debit cards 0.5 point\nUniversity and remittance prepaid cards 0.5 point\nRemittance cards (amounts in foreign currencies are converted to EGP) 1 point\nUSD Visa Platinum debit cards 20 points for every 1 USD\nUSD Visa Platinum Credit cards 22 points for every 1 USD\n3- Al Ahly Net/NBE Mobile – NBE's official website:\nPoints are awarded upon activating & using your Al Ahly Net / NBE Mobile based on your segment as follows:\nNBE Platinum Elite NBE Platinum Plus NBE Platinum NBE Titanium – Gold\nService activation 1,000 points\nOpening a sub-account (maximum 6 sub-accounts) 200 points 150 points 100 points 50 points\nDomestic transfers to accounts/cards (maximum 5 transfers monthly) 200 points 150 points 100 points 50 points\nTransfers to e-wallets (maximum 3 transfers monthly) 200 points 150 points 100 points 50 points\nSubscribing to the e-statement of account service (maximum 3 statements) 200 points 150 points 100 points 50 points\nCard activation (maximum 2 cards annually) 100 points 75 points 50 points 25 points\n4- NBE PhoneCash:\nPoints are awarded upon activating & using your NBE",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-21-chunk-3",
+      "pageId": "page-21",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22AhlyPoints%22%7D",
+      "title": "National Bank of Egypt - Al Ahly Points",
+      "chunkIndex": 2,
+      "text": "PhoneCash as follows:\nService activation (maximum 1 wallet) 1,000 points\nOnline cards (maximum 2 cards monthly) 20 points\nP2M (QR code payments) 1 point for every EGP\nCorporate customers:\nCorporate/B2B credit card\nPoints are earned when corporate credit cards are used in purchases at all merchants inside Egypt or abroad,excluding purchases not eligible to earn points according to Al Ahly Points terms and conditions, which include, but are not limited to installments at merchants, Fawry payments, purchases through Fawry POS, government payments, and loading NBE PhoneCash wallet).\nPoints are earned when B2B credit cards are used in local currency purchases from participating merchants inside Egypt.\nCard type\nPoints for every EGP 1\nCorporate credit card 1 point\nB2B credit card 0.1 point\nAs of 05/01/2026, earned points will expire after 24 months from the month in which points are earned, rather than 36 months, and may not be redeemed by the customer upon expiry. However, points earned before 05/01/2026 will remain valid for 36 months from the date on which points are earned and may not be redeemed by the customer upon expiry.\nYou can redeem points earned in the form of:\nShop4Cash\nYou",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-21-chunk-4",
+      "pageId": "page-21",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22AhlyPoints%22%7D",
+      "title": "National Bank of Egypt - Al Ahly Points",
+      "chunkIndex": 3,
+      "text": "can redeem points earned from using Al Ahly Points eligible cards, products, or services by logging into Al Ahly Points App and selecting the Shop4Cash service. This service automatically displays all the transactions you carried out using cards, which are eligible to earn points, in the local currency only during the last 30 days. You can select any transaction to have the transaction amount credited to the account/card used in making the purchase, and the number of points equivalent to the transaction amount will be deducted from your point balance.\nThe redemption value is EGP 0.01 per point (for example: 100 points = EGP 1). only .\nIn case the available points balance covers the selected transaction amount, the full transaction amount will be credited to the account/card used in making the purchase.\nIn case the available points balance is less than the transaction amount, only the amount equivalent to the number of points available will be credited to the account/card used in making the purchase.\nPay with Points\nThe customer (for retail customers) or the enterprise’s authorized signatory (for corporate customers) can redeem the points earned from using Al Ahly Points eligible ca",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-21-chunk-5",
+      "pageId": "page-21",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22AhlyPoints%22%7D",
+      "title": "National Bank of Egypt - Al Ahly Points",
+      "chunkIndex": 4,
+      "text": "rds, products, or services by visiting any participating merchant to directly pay with points for goods and/or services without the need to contact NBE’s Call Center or log into Al Ahly Points website.\nWhen paying with points at merchants, each point is worth EGP 0.01 (for example: 100 points = EGP 1).\nPWP Merchant Network Click here\nCash Rewards\nThe amount shall be credited to any of the Customer’s valid primary NBE credit cards in the local currency.\nRedemption can be made through Al Ahly Points website or app.\nWhen redeeming points for cash rewards, each point is worth EGP 0.005 (for example: 5,000 points = EGP 25).\nNBE Points Application: Google Play ,App Store\nNBE Points Website click here\nTo view the FAQs click here\nTerms and conditions apply\nTerms and Conditions",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-22-chunk-1",
+      "pageId": "page-22",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22magazine%22%7D",
+      "title": "National Bank of Egypt - NBE Magazine",
+      "chunkIndex": 0,
+      "text": "Version 50\n\nVersion 49\n\nVersion 48\n\nVersion 47\n\nVersion 46\n\nVersion 45\n\nVersion 44\n\nVersion 43\n\nVersion 42\n\nVersion 41\n\nVersion 40\n\nVersion 39\n\nVersion 38\n\nVersion 37\n\nVersion 36\n\nVersion 35\n\nVersion 34\n\nVersion 33\n\nVersion 32\n\nSpecial Edition\n\nVersion 30\n\nVersion 29\n\nVersion 28\n\nVersion 27\n\nVersion 26\n\nVersion 25\n\nVersion 24\n\nVersion 23\n\nVersion 22\n\nVersion 21\n\nVersion 20\n\nVersion 19\n\nVersion 18\n\nVersion 17\n\nVersion 16\n\nVersion 15\n\nVersion 14\n\nVersion 13\n\nVersion 12\n\nVersion 11\n\nVersion 10\n\nVersion 9\n\nVersion 8\n\nVersion 7\n\nVersion 6\n\nVersion 5\n\nVersion 4\n\nVersion 3\n\nVersion 2\n\nVersion 1",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 1
+      }
+    },
+    {
+      "id": "page-23-chunk-1",
+      "pageId": "page-23",
+      "url": "https://www.nbe.com.eg/NBE/E/#/AR/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D9%81%D9%88%D9%86%20%D9%83%D8%A7%D8%B4%20-%20%D8%AA%D8%B3%D8%AC%D9%8A%D9%84%20%D8%B0%D8%A7%D8%AA%D9%8A_16646%22%7D",
+      "title": "البنك الأهلى المصرى - الاشتراك في خدمة الأهلي فون كاش",
+      "chunkIndex": 0,
+      "text": "خطوات الاشتراك في خدمة الأهلي الفون كاش\nهذه الخدمة مقدمة لعملاء البنك الأهلي المصري المصدرة لهم بطاقات ماستركارد و فيزا و ميزة (ائتمان – خصم مباشر – المدفوعة مقدما – المرتبات)\nقم بإدخال رقمك القومي و كذلك رقم هاتفك المحمول المسجل لدى البنك حتى يتم استقبال طلبكم بنجاح\nسيقوم النظام بالتحقق من البيانات و سيقوم بإرسال رمز التحقق على هاتفك المحمول\nقم بإدخال رمز التحقق و سيقوم النظام بالتأكد من صحة الكود.\nقم بإدخال أول ستة أرقام وآخر أربع أرقام لأي من بطاقاتكم البنكية (الائتمان/ المرتبات/ الخصم المباشر/ المدفوعة مقدمًا).\nقم بإدخال رقم الهاتف المحمول المراد الاشتراك به والمسجل باسمكم لدى شركة الاتصالات التابع لها خط الهاتف المحمول و التأكد من أنه لا توجد محافظ الكترونية مسجلة على نفس رقم الهاتف المحمول حتى يتسنى تنفيذ طلبكم\nسيتم تسجيل طلبكم على النظام وسيتم فور تنفيذه ارسال رابط تحميل التطبيق.\nوفقا وتعليمات البنك المركزي المصري ، فقد تم:\nزيادة الحدود القصوى اليومية و الشهرية للمحفظة لتصبح 60 ألف جنيه مصري و 200 ألف جنيه مصري على التوالي ، و تم زيادة رصيد المحفظة ليصبح 100 ألف جنيه مصري.\nفي حال رغبة سيادتكم بتعديل رقم الهاتف المحمول المسجل لدى البنك،برجاء التوجه إلى أقرب فرع.",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 2
+      }
+    },
+    {
+      "id": "page-24-chunk-1",
+      "pageId": "page-24",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22ExpatriatesTransfers%22%2C%22ProductID%22%3A%2215526%22%7D",
+      "title": "National Bank of Egypt - Correspondents & Agents in the field of Expatriates’ transfers",
+      "chunkIndex": 0,
+      "text": "National Bank of Egypt has great experiences in the field of Expatriates money transfers via multiple systems which are compatible with the most updated technology applied globally, in cooperation with the largest correspondents and agents as follows:\nKSA\nAl Rajhi Bank\nArab National Bank\nSaudi National Bank\nBank Al Bilad\nAl Inma Bank\nBank AlJazira\nThe Saudi Investment Bank\nKuwait\nAl Muzaini Exchange Co.\nBahrain Exchange Co.\nAl Mulla International Exchange Co.\nKuwait Bahrain International Exchange Co.\nLulu Exchange Co.\nAl Ansari Exchange Co.\nAman Exchange Co.\nAl Nada Int'l Exchange Co.\nJoyalukkas Exchange Co.\nAl Sultan Exchange Co.\nUAE\nLari Exchange Co.\nAl Fardan Exchange Co.\nAl Ansari Exchange\nLulu Int’l Exchange Co.\nInstant Cash\nBlue Remit.\nAl Fuad Exchange\nAl Dahab Exchange\nQatar\nGulf Exchange Co.\nNational Exchange Co.\nAl Fardan Exchange Co.\nCity Exchange Co.\nArabian Exchange Company\nJordan\nAlwaneh Exchange Co.\nKamal Exchange Co.\nKhalil Al Rahman Exchange Co.\nDahab Lilsarafah Company Ltd.\nMusharbash Exchange Co.\nOman\nUnimoni Exchange Co.\nModern Exchange Co.\nGlobal Money Exchange Co.\nBahrain\nZenje For Advance Remittance Services\nAlyousuf Exchange Co.\nUSA\nMastercard Transaction Ser",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 2
+      }
+    },
+    {
+      "id": "page-25-chunk-1",
+      "pageId": "page-25",
+      "url": "https://www.nbe.com.eg/",
+      "title": "National Bank of Egypt - Home",
+      "chunkIndex": 0,
+      "text": "Please note that this service is only for inquiring about the products and services offered by the Bank to retail and corporate customers. Keep your data safe and do not share the PIN codes or passwords of your accounts or cards. Please do not disclose your personal or financial data upon using the service.(Please note that the Bank will record all conversations for quality purposes).",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 2
+      }
+    },
+    {
+      "id": "page-26-chunk-1",
+      "pageId": "page-26",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ContactUs",
+      "title": "National Bank of Egypt - Contact us",
+      "chunkIndex": 0,
+      "text": "Please note that this service is only for inquiring about the products and services offered by the Bank to retail and corporate customers. Keep your data safe and do not share the PIN codes or passwords of your accounts or cards. Please do not disclose your personal or financial data upon using the service.(Please note that the Bank will record all conversations for quality purposes).",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 2
+      }
+    },
+    {
+      "id": "page-27-chunk-1",
+      "pageId": "page-27",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22ForigenCertificatesID%22%7D",
+      "title": "National Bank of Egypt - Saving Certificates - Foreign Currency",
+      "chunkIndex": 0,
+      "text": "New Golden\nMinimum Amount\n500 USD/Euro\nand multiplies\n## Duration\n3 - 5 - 7 Years\nInterest Rate\n4.75%\nUSD - 3 Years\n4.85%\nUSD - 5 Years\n4.90%\nUSD - 7 Years\n0.75%\nEuro\n(3 Years with Quarterly Frequency Only)\ncompare\nTo compare between products press...\nCommon Features\nCertificates are nominal and may not be negotiated, endorsed, transferred, discounted, pledged or disposed of via any form of ownership transfer.\nCertificates are renewed automatically according to the published interest rate.",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 2
+      }
+    },
+    {
+      "id": "page-28-chunk-1",
+      "pageId": "page-28",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22ForeignDeposits%22%7D",
+      "title": "National Bank of Egypt - Time Deposits - Foreign Currency",
+      "chunkIndex": 0,
+      "text": "## Multi Frequencies Time Deposits\n## Duration\n1 YearOr 3 years\n## Interest Frequency\nMonthly - Quarterly - Semiannual - Annual\n## Time Deposits interest rate paid at maturity\n## Duration\n1 weekto 1 Year\n## Interest Frequency\nAt maturity",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 2
+      }
+    },
+    {
+      "id": "page-29-chunk-1",
+      "pageId": "page-29",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22InvestmentCertificateCatID%22%7D",
+      "title": "National Bank of Egypt - Investment Certificates",
+      "chunkIndex": 0,
+      "text": "The common features of certificate\nAll Certificates are nominal. They may not be traded, endorsed, transferred, discounted, pledged to third parties or disposed of in any form with a view to transferring ownership.\nCustomer may borrow or request credit cards of all types to be issued from any NBE branch against the Certificates in accordance with the applicable regulations and interest rates as at the date of borrowing.\nCertificates can be issued by way of a gift or donation according to conditions to be signed in this respect.\nIf the customer adds any information to the Certificate, NBE shall be entitled to take all legal proceedings against the customer.\nCertificates and the relevant interests are exempted from all kinds of taxes and stamp duties.\nUpon being informed that the Certificate holder has passed away and that such certificates have been renewed after the death date, the Bank shall promptly redeem such Certificate without the consent of the deceased customer's heirs.\nCertificate “A”\nMinimum amount\n500  EGP\nAnd its multiples\nDuration \n10 Years\nInterest rate\n12%\n## Interest frequency\nAccumulated\nCertificate “B”\nMinimum amount\n500  EGP\nAnd its multiples\nDuration \n1 Year\nInt",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 2
+      }
+    },
+    {
+      "id": "page-29-chunk-2",
+      "pageId": "page-29",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22InvestmentCertificateCatID%22%7D",
+      "title": "National Bank of Egypt - Investment Certificates",
+      "chunkIndex": 1,
+      "text": "erest rate\n14%\n## Interest frequency\nMonthly\nCertificate “B”\nMinimum amount\n500  EGP\nAnd it's multiples\nDuration \n3 Years\nInterest rate\n15%\n## Interest frequency\nQuarterly\nGroup 'C' Lottery Certificate\nMinimum amount\n500 EGP\nDuration \n20 Years\nInterest rate\nNo interest\n## Interest frequency\nNo interest",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 2
+      }
+    },
+    {
+      "id": "page-30-chunk-1",
+      "pageId": "page-30",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22Bancassurance%22%7D",
+      "title": "National Bank of Egypt - Bancassurance",
+      "chunkIndex": 0,
+      "text": "Bancassurance products in partnership with Misr Life Insurance Company\nNational Bank of Egypt, in cooperation with Misr Life Insurance Company, offers insurance and investment services through a variety of programs that meet the needs of NBE’s customers through NBE branches all over Egypt.\nMaash Bokra EGP Policy\nThe first of its kind in Egypt. It provides the insured with many benefits to secure a carefree future\nMaash Bokra USD Policy\nAn exclusive life insurance plan for Egyptians living abroad\nMisr Investment Policy\nprovides a protection and saving scheme that guarantees the insured an amount of money plus profits\nInvestment and Care Policy\nProvides triple benefits of insurance coverage, critical illness coverage, and a lucrative investment opportunity to cater to the needs of its holders\nMisr Protection and Investment Policy\nAn exclusive policy from Misr Life Insurance Company that provides both insurance and investment benefits, along with a draw every six months equal to the insured sum\nMisr Trilogy\nOffers a systematic insurance scheme to make three payments during the insurance period in order to meet the customers’ financial needs throughout the insurance period\nIbn Sina Hea",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 2
+      }
+    },
+    {
+      "id": "page-30-chunk-2",
+      "pageId": "page-30",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22Bancassurance%22%7D",
+      "title": "National Bank of Egypt - Bancassurance",
+      "chunkIndex": 1,
+      "text": "lth Insurance Policy\nThe plan covers all the standard medical services\nMisr Protection Policy\nOffers a protection scheme to secure families, businesses, or lenders\nMisr Protection Plus Policy\nProtects banks against the risks of credit default",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 2
+      }
+    },
+    {
+      "id": "page-31-chunk-1",
+      "pageId": "page-31",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22NewsCat1ID%22%2C%22ProductID%22%3A%2219848%22%7D",
+      "title": "National Bank of Egypt - Important Information Update Notice to Customers",
+      "chunkIndex": 0,
+      "text": "Dear customer,\nPlease ensure that your information registered with the Bank is up to date, and that you regularly update your information upon any change. NBE is pleased to welcome you at any of its branches to update your information, to ensure that you continue to benefit from all banking services. Please note that the following services will be stopped after 3 months from the date on which you are required to update your information with the Bank. Please note that the Bank does not request any personal or banking information over the phone or via text messages.\n1-Al Ahly Net/ NBE Mobile service (retail and corporate customers):\nFirst: retail customers\nOpening new accounts for existing customers.\nActivating dormant accounts.\nOpening/ redeeming/ amending certificates and time deposits.\nResetting PIN/resetting PIN counter for credit cards.\nActivating debit cards.\nResetting PIN/resetting PIN counter for debit / prepaid cards\nDebit Card Link Accounts\nActivating prepaid and credit cards.\nTransferring to prepaid cards.\nIssue new prepaid card\nOpening mutual fund certificates.\nRedeeming mutual fund certificates.\nOpening/modifying investment accounts.\nApplying for a cash personal loan/ au",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 2
+      }
+    },
+    {
+      "id": "page-31-chunk-2",
+      "pageId": "page-31",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22NewsCat1ID%22%2C%22ProductID%22%3A%2219848%22%7D",
+      "title": "National Bank of Egypt - Important Information Update Notice to Customers",
+      "chunkIndex": 1,
+      "text": "to loan/ credit card.\nRequesting I-Score report.\nActivating soft token.\nSetting/resetting standing instructions (in relation to customer's own accounts).\nEditing personal information.\nActivating/ deactivating/ resetting the hard token.\nMaking single/multiple internal transfers to other accounts within NBE.\nMaking single/multiple domestic transfers.\nManaging payees.\nSetting/resetting standing instructions (in relation to other customers' accounts within NBE).\nUsing Fawry payment services.\nUsing E-Finance payment services.\nTransferring funds to any e-wallet inside Egypt.\nMaking donations to entities registered on Al Ahly Net/NBE Mobile.\nAl Ahly Net/NBE Mobile self-registration.\nSecond: corporate customers:\nActivating dormant accounts.\nOpening/ redeeming/ amending certificates and time deposits.\nPurchasing mutual fund certificates.\nRedeeming mutual fund certificates.\nOpening/modifying investment accounts.\nSetting/resetting standing instructions (in relation to customer's own accounts).\nMaking single/multiple internal transfers to other accounts within NBE.\nMaking single/multiple domestic transfers.\nManaging payees.\nSetting/resetting standing instructions (in relation to other customer",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 2
+      }
+    },
+    {
+      "id": "page-31-chunk-3",
+      "pageId": "page-31",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22NewsCat1ID%22%2C%22ProductID%22%3A%2219848%22%7D",
+      "title": "National Bank of Egypt - Important Information Update Notice to Customers",
+      "chunkIndex": 2,
+      "text": "s' accounts within NBE).\nUsing Fawry payment services.\nUsing E-Finance payment services.\nTransferring funds to any e-wallet inside Egypt.\nMaking donations to entities registered on Al Ahly Net/NBE Mobile.\n2- Self-services via NBE website:\nInstant Payment Network (IPN) transfer service.\nPurchase of mutual fund certificates (inquiry about mutual fund balance will be still available).\nAl Ahly Net/NBE Mobile activation.\nApplication for EGP personal cash loan against Al Ahly Plus certificate.\nSubscription to the e-statements of accounts/cards service.\nEmail updating.\nNBE PhoneCash registration.\nI-Score inquiry service.\nChequebook issuance.\n3- Instant Payment Network (IPN) transfer service\nMoney transfer.\nDonations.\nBill payment.\nAcceptance of \"collect money\" requests.\nOther News\nYour Dream is Closer Than Ever- Unsecured Personal Cash Loans\nPublic Tenders Announcement\nBanking Tariff Important Notice\nPublic Tenders Announcement\nWindow opening for adding constructors and engineering consulting offices to NBE records\nA note about using NBE cards\nThe Fourth Daily Money Market Fund and Al Waed Fund Trading Hours During Ramadan\nA Note About Banking Tariffs Update\nThirty NBE branches are open d",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 2
+      }
+    },
+    {
+      "id": "page-31-chunk-4",
+      "pageId": "page-31",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22NewsCat1ID%22%2C%22ProductID%22%3A%2219848%22%7D",
+      "title": "National Bank of Egypt - Important Information Update Notice to Customers",
+      "chunkIndex": 3,
+      "text": "aily from 5:00 pm to 9:00 pm\nUpdates On Credit Cards International Utilization\nUpdates On Debit Cards International Usage Parameters\nA Note To Holders of National Bank Of Egypt Mutual Fund Certificates\nGroup 'C' Certificates Draw Announcement\nImportant Notice\nNBE Signs a Joint Syndication Agreement\nA Note About E-statements of Account Service\nFraud Notice\nIt is important not to share any identification numbers, pin, or the numbers on the back of your payment cards with anyone to protect your financial transactions.\nAl Ahly Fawran Certificate suspension\nImportant Update - platinum certificate\nTenders For Branches\nDebit Cards Deposit Limit Through NBE's ATMs Announcement\nEgyptian Certificate Aman Draw Announcement\n(USD) Foreign Currency Certificates' Notification\nLocal Currency Certificates of Deposit's Notification\nA Note About Updating Information Using a Power of Attorney\nAuthorization form for receiving electronic payment cards - chequebooks\nUSD Belady Certificates Announcement\nA Note About Tariff Changes\nNBE Achieves 133.3 Billion Egyptian Pounds After Taxes\nGlobal Finance | NBE is the safes Egyptian bank in 2025\nAirport Platinum Lounge Announcement\nAirport Platinum Announcement",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 2
+      }
+    },
+    {
+      "id": "page-31-chunk-5",
+      "pageId": "page-31",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22NewsCat1ID%22%2C%22ProductID%22%3A%2219848%22%7D",
+      "title": "National Bank of Egypt - Important Information Update Notice to Customers",
+      "chunkIndex": 4,
+      "text": "NBE's Events & Exhibitions\nNBE Renews the Strategic Partnership with Orascom Pyramids\nAl Mostakabal Saving USD Saving Account Withdrawal Results\nIn cooperation with the Ministry of Higher Education and Scientific Research, a new donations account has been opened at the National Bank of Egypt\nAnnouncement of the opining of registration in the suppliers register 2026\nAnnouncement for Redemption Terms and Conditions Changes\nReturned Cheques Acknowledgment\nAnnouncement for Stopping the Platinum Variable Interest Certificate - with Quarterly Return\nshabab shamel",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 2
+      }
+    },
+    {
+      "id": "page-32-chunk-1",
+      "pageId": "page-32",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%20%D9%81%D9%8A%20%D8%AE%D8%AF%D9%85%D8%A9%20%D8%A7%D9%84%D9%83%D8%B4%D9%81%20%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%20%D9%84%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA%20%D9%88%20%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D9%82%D8%A7%D8%AA_18712%22%7D",
+      "title": "National Bank of Egypt - Subscribe To Electronic Statements Of Accounts Or Cards",
+      "chunkIndex": 0,
+      "text": "How to subscribe\nEnter the National ID number (for Egyptians) or the Passport number (for Foreigners).\nEnter the Mobile phone number registered with the Bank and click \"Submit\".\nA onetime password \"OTP\" will be sent to the mobile no. registered with the Bank.\nType the OTP in \"Enter OTP\" field and click on \"Submit\".\nEnter the first six digits and the last four digits of any of your bank cards (credit/payroll/debit/prepaid).\nEnter/Update your email.\nTo update your email, input your new email, re-enter it and click \"Verify email\".\nAn email with an OTP will be sent to you. Check the \"Junk Folder\" for such email.\nEnter the OTP in the relevant field and click on \"Submit\".\nSelect \"Subscribe\" according to the products that you have: Bank accounts only, Credit cards only, Bank accounts and Credit cards.\nThe Service enables Foreigners to subscribe to the E-statement for Accounts only.\nCheck \"I agree to the terms & conditions\" and click on \"Submit\" after reading the terms & conditions of the service via the link below.\nTo view the terms and conditions of the service Click Here\nDear valued customer, please note that:\nThe credit card statement will be sent to the updated email as of the next ro",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 2
+      }
+    },
+    {
+      "id": "page-32-chunk-2",
+      "pageId": "page-32",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductDetails?inParams=%7B%22CategoryID%22%3A%22selfservices%22%2C%22ProductID%22%3A%22%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%20%D9%81%D9%8A%20%D8%AE%D8%AF%D9%85%D8%A9%20%D8%A7%D9%84%D9%83%D8%B4%D9%81%20%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%20%D9%84%D9%84%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA%20%D9%88%20%D8%A7%D9%84%D8%A8%D8%B7%D8%A7%D9%82%D8%A7%D8%AA_18712%22%7D",
+      "title": "National Bank of Egypt - Subscribe To Electronic Statements Of Accounts Or Cards",
+      "chunkIndex": 1,
+      "text": "und once you subscribe to the e-statement service.\nYou can review the statement of your (banking accounts / credit cards) via Al Ahly Net / NBE Mobile once you subscribe to the e-statement service.\nE-statement service is only available for the accounts with (monthly/quarterly) statement cycle.",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 2
+      }
+    },
+    {
+      "id": "page-33-chunk-1",
+      "pageId": "page-33",
+      "url": "https://www.nbe.com.eg/NBE/E/#/EN/ProductCategory?inParams=%7B%22CategoryID%22%3A%22Tariff%22%7D",
+      "title": "National Bank of Egypt - Fees And Charges",
+      "chunkIndex": 0,
+      "text": "Fees And Charges\n \nIndividuals\n \nRetail Loans & Overdrafts\n \nRemittances\n \nCustody Services\n \nCorporates\n \nCheques\n \nCards\n \nSalary in advance\n \nDigital Services",
+      "metadata": {
+        "source": "nbe",
+        "type": "webpage",
+        "depth": 2
+      }
+    }
+  ]
+}
