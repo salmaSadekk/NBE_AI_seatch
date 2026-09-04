@@ -1,71 +1,82 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
-
-const CATEGORY_COLORS = {
-  DevOps: '#F0B429',
-  Frontend: '#5EEAD4',
-  Backend: '#8B7FF0',
-  Database: '#F97066',
-  Security: '#7DD3FC',
-};
-
-function useDebouncedValue(value, delayMs) {
-  const [debounced, setDebounced] = useState(value);
-  useEffect(() => {
-    const handle = setTimeout(() => setDebounced(value), delayMs);
-    return () => clearTimeout(handle);
-  }, [value, delayMs]);
-  return debounced;
-}
+import { useState, useRef } from 'react';
 
 export default function App() {
   const [query, setQuery] = useState('');
-  const [results, setResults] = useState([]);
+  const [answer, setAnswer] = useState('');
+  const [sources, setSources] = useState([]);
   const [status, setStatus] = useState('idle'); // idle | loading | done | error
-  const [activeIndex, setActiveIndex] = useState(-1);
-  const debouncedQuery = useDebouncedValue(query, 250);
-  const abortRef = useRef(null);
+  const [error, setError] = useState('');
 
-  const runSearch = useCallback(async (q) => {
-    if (!q.trim()) {
-      setResults([]);
+  const inputRef = useRef(null);
+
+  const isArabic = /[\u0600-\u06FF]/.test(query);
+
+  const runSearch = async () => {
+    const trimmedQuery = query.trim();
+
+    if (!trimmedQuery) {
+      setAnswer('');
+      setSources([]);
       setStatus('idle');
+      setError('');
       return;
     }
 
-    if (abortRef.current) abortRef.current.abort();
-    const controller = new AbortController();
-    abortRef.current = controller;
-
     setStatus('loading');
+    setAnswer('');
+    setSources([]);
+    setError('');
+
     try {
-      const res = await fetch(`/api/search?q=${encodeURIComponent(q)}`, {
-        signal: controller.signal,
-      });
-      if (!res.ok) throw new Error(`Request failed with ${res.status}`);
-      const data = await res.json();
-      setResults(data.results || []);
+      // Backend expects:
+      // GET /api/ask?q=...
+      const response = await fetch(
+        `/api/ask?q=${encodeURIComponent(trimmedQuery)}`
+      );
+
+      if (!response.ok) {
+        throw new Error(`Request failed with ${response.status}`);
+      }
+
+      const data = await response.json();
+
+      if (!data.success) {
+        throw new Error(data.error || 'Search request failed');
+      }
+
+      setAnswer(data.answer || 'No answer was generated.');
+      setSources(Array.isArray(data.sources) ? data.sources : []);
       setStatus('done');
-      setActiveIndex(-1);
     } catch (err) {
-      if (err.name === 'AbortError') return;
+      console.error('Search error:', err);
+
       setStatus('error');
+      setError(
+        'Could not reach the AI search backend. Please try again.'
+      );
     }
-  }, []);
+  };
 
-  useEffect(() => {
-    runSearch(debouncedQuery);
-  }, [debouncedQuery, runSearch]);
+  const clearSearch = () => {
+    setQuery('');
+    setAnswer('');
+    setSources([]);
+    setStatus('idle');
+    setError('');
 
-  const handleKeyDown = (e) => {
-    if (results.length === 0) return;
-    if (e.key === 'ArrowDown') {
-      e.preventDefault();
-      setActiveIndex((i) => (i + 1) % results.length);
-    } else if (e.key === 'ArrowUp') {
-      e.preventDefault();
-      setActiveIndex((i) => (i - 1 + results.length) % results.length);
-    } else if (e.key === 'Escape') {
-      setQuery('');
+    setTimeout(() => {
+      inputRef.current?.focus();
+    }, 0);
+  };
+
+  const handleKeyDown = (event) => {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+      runSearch();
+    }
+
+    if (event.key === 'Escape') {
+      clearSearch();
     }
   };
 
@@ -73,76 +84,216 @@ export default function App() {
     <div className="page">
       <div className="halo" aria-hidden="true" />
 
+      {/* Header */}
       <header className="header">
-        <span className="eyebrow">index // local</span>
+        <span className="eyebrow">NBE // AI SEARCH</span>
+
         <h1 className="wordmark">Lookup</h1>
+
+        <p
+          style={{
+            margin: '10px 0 0',
+            color: 'var(--text-secondary)',
+            fontSize: '14px',
+          }}
+        >
+          Search the National Bank of Egypt knowledge base
+        </p>
       </header>
 
-      <div className="search-shell" data-state={status}>
-        <svg className="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <circle cx="11" cy="11" r="7" stroke="currentColor" strokeWidth="2" />
-          <line x1="21" y1="21" x2="16.65" y2="16.65" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+      {/* Search */}
+      <div
+        className="search-shell"
+        data-state={status}
+        dir={isArabic ? 'rtl' : 'ltr'}
+      >
+        <svg
+          className="search-icon"
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+          fill="none"
+          aria-hidden="true"
+        >
+          <circle
+            cx="11"
+            cy="11"
+            r="7"
+            stroke="currentColor"
+            strokeWidth="2"
+          />
+
+          <line
+            x1="21"
+            y1="21"
+            x2="16.65"
+            y2="16.65"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+          />
         </svg>
+
         <input
+          ref={inputRef}
           className="search-input"
           type="text"
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={(event) => setQuery(event.target.value)}
           onKeyDown={handleKeyDown}
-          placeholder="Search articles, topics, categories…"
+          placeholder={
+            isArabic
+              ? 'ابحث في قاعدة معرفة البنك الأهلي المصري…'
+              : 'Ask anything about NBE…'
+          }
           autoFocus
           aria-label="Search"
         />
+
         {query && (
-          <button className="clear-btn" onClick={() => setQuery('')} aria-label="Clear search">
+          <button
+            className="clear-btn"
+            onClick={clearSearch}
+            aria-label="Clear search"
+            type="button"
+          >
             ×
           </button>
         )}
       </div>
 
+      {/* Search hint / status */}
       <div className="meta-row">
-        {status === 'loading' && <span className="meta-text">searching…</span>}
-        {status === 'done' && (
-          <span className="meta-text mono">
-            {String(results.length).padStart(2, '0')} match{results.length === 1 ? '' : 'es'} for “{debouncedQuery}”
+        {status === 'idle' && (
+          <span className="meta-text">
+            Press Enter to search the NBE knowledge base
           </span>
         )}
-        {status === 'error' && <span className="meta-text error">couldn't reach the search backend</span>}
-        {status === 'idle' && <span className="meta-text">start typing to search the index</span>}
+
+        {status === 'loading' && (
+          <span className="meta-text">
+            Searching NBE knowledge base…
+          </span>
+        )}
+
+        {status === 'done' && (
+          <span className="meta-text mono">
+            AI answer generated from indexed NBE content
+          </span>
+        )}
+
+        {status === 'error' && (
+          <span className="meta-text error">
+            {error}
+          </span>
+        )}
       </div>
 
-      <ul className="results" role="listbox">
-        {results.map((item, i) => (
-          <li
-            key={item.id}
-            className={`result-card ${i === activeIndex ? 'active' : ''}`}
-            role="option"
-            aria-selected={i === activeIndex}
-            onMouseEnter={() => setActiveIndex(i)}
-          >
-            <div className="result-top">
-              <h2 className="result-title">{item.title}</h2>
-              <span
-                className="category-pill"
-                style={{
-                  color: CATEGORY_COLORS[item.category] || '#8B93A3',
-                  borderColor: CATEGORY_COLORS[item.category] || '#8B93A3',
-                }}
-              >
-                {item.category}
-              </span>
-            </div>
-            <p className="result-desc">{item.description}</p>
-          </li>
-        ))}
+      {/* Loading */}
+      {status === 'loading' && (
+        <section className="answer-card loading-card">
+          <div className="loading-dots">
+            <span />
+            <span />
+            <span />
+          </div>
 
-        {status === 'done' && results.length === 0 && (
-          <li className="empty-state">
-            <p>Nothing matched “{debouncedQuery}”.</p>
-            <p className="empty-hint">Try a broader term, like “docker” or “react”.</p>
-          </li>
-        )}
-      </ul>
+          <p className="loading-text">
+            Finding the most relevant information…
+          </p>
+        </section>
+      )}
+
+      {/* AI Answer */}
+      {status === 'done' && answer && (
+        <section
+          className="answer-card"
+          dir={isArabic ? 'rtl' : 'ltr'}
+        >
+          <div className="section-label">
+            <span className="label-dot" />
+            AI ANSWER
+          </div>
+
+          <div className="answer-text">
+            {answer.split('\n').map((line, index) => {
+              const trimmedLine = line.trim();
+
+              if (!trimmedLine) {
+                return (
+                  <div
+                    key={index}
+                    className="answer-space"
+                  />
+                );
+              }
+
+              return (
+                <p key={index}>
+                  {trimmedLine}
+                </p>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
+      {/* Sources */}
+      {status === 'done' && sources.length > 0 && (
+        <section
+          className="sources-section"
+          dir={isArabic ? 'rtl' : 'ltr'}
+        >
+          <div className="section-label">
+            SOURCES
+          </div>
+
+          <div className="sources-list">
+            {Array.from(
+              new Map(
+                sources.map((source) => [source.url, source])
+              ).values()
+            ).map((source, index) => {
+              const sourceUrl = source.url || '#';
+
+              return (
+                <a
+                  key={`${source.pageId || 'source'}-${index}`}
+                  className="source-card"
+                  href={sourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="source-icon">
+                    ↗
+                  </div>
+
+                  <div className="source-content">
+                    <h3>
+                      {source.title || 'NBE Source'}
+                    </h3>
+
+                    <p>
+                      National Bank of Egypt
+                    </p>
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
+      {/* Error state */}
+      {status === 'error' && (
+        <section className="empty-state">
+          <p>Something went wrong.</p>
+
+          <p className="empty-hint">
+            Make sure the backend and AI services are running.
+          </p>
+        </section>
+      )}
     </div>
   );
 }
