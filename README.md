@@ -21,7 +21,7 @@ The application consists of four main services:
 
 ```text
                          ┌──────────────────────┐
-                         │      NBE Website      │
+                         │      NBE Website     │
                          └──────────┬───────────┘
                                     │
                                     ▼
@@ -35,7 +35,7 @@ The application consists of four main services:
                                     ▼
 ┌───────────────┐         ┌──────────────────────┐
 │   React UI    │ ──────► │   Node.js Backend    │
-│   Port 3000   │         │      Port 4000        │
+│   Port 3000   │         │      Port 4000       │
 └───────────────┘         └──────────┬───────────┘
                                      │
                        ┌─────────────┴─────────────┐
